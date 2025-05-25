@@ -221,6 +221,17 @@ def switch_random_node_main_group(api_port, group_name, all_nodes):
         raise RuntimeError(f'切换节点失败: 期望{node}, 实际{now}')
     return node
 
+def is_node_available(proxy_port):
+    proxies = {
+        'http': f'http://127.0.0.1:{proxy_port}',
+        'https': f'http://127.0.0.1:{proxy_port}',
+    }
+    try:
+        resp = requests.get('https://longsiye.nyyo.cn', proxies=proxies, timeout=5, verify=False)
+        return resp.status_code == 200
+    except Exception:
+        return False
+
 def main():
     print('🎯 抖音刷量批量提交系统（自动代理集成版）')
     print('=' * 40)
@@ -296,6 +307,12 @@ def main():
         except Exception as e:
             print(f'❌ 节点切换失败: {e}')
             mihomo_proc.terminate()
+            continue
+        # 连通性测试
+        if not is_node_available(proxy_port):
+            print(f'⚠️  节点 {node} 无法连通 longsiye.nyyo.cn，自动跳过...')
+            mihomo_proc.terminate()
+            time.sleep(2)
             continue
         submitter = DouyinBatchSubmitterV2(base_url="https://longsiye.nyyo.cn")
         success, message, order_info = submitter.submit_single_url(url)
