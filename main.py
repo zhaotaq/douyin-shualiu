@@ -295,27 +295,50 @@ def main():
     print(f'\n🚀 开始批量提交...')
     results = []
     for i, url in enumerate(urls, 1):
-        # 每次都重启mihomo
-        mihomo_proc = start_mihomo(mihomo_path, config_path)
-        if not wait_mihomo_api(api_port):
-            print('❌ mihomo启动失败')
-            mihomo_proc.terminate()
-            continue
-        try:
-            node = switch_random_node_main_group(api_port, group_name, all_nodes)
-            print(f'🔄 已切换到主分组: {group_name} 节点: {node}')
-        except Exception as e:
-            print(f'❌ 节点切换失败: {e}')
-            mihomo_proc.terminate()
-            continue
-        # 连通性测试
-        if not is_node_available(proxy_port):
-            print(f'⚠️  节点 {node} 无法连通 longsiye.nyyo.cn，自动跳过...')
-            mihomo_proc.terminate()
-            time.sleep(2)
-            continue
-        submitter = DouyinBatchSubmitterV2(base_url="https://longsiye.nyyo.cn")
-        success, message, order_info = submitter.submit_single_url(url)
+        tried_nodes = set()
+        success = False
+        message = ''
+        order_info = {}
+        for _ in range(len(all_nodes)):
+            # 每次都重启mihomo
+            mihomo_proc = start_mihomo(mihomo_path, config_path)
+            if not wait_mihomo_api(api_port):
+                print('❌ mihomo启动失败')
+                mihomo_proc.terminate()
+                continue
+            try:
+                # 只选没试过的节点
+                available_nodes = [n for n in all_nodes if n not in tried_nodes]
+                if not available_nodes:
+                    break
+                node = random.choice(available_nodes)
+                tried_nodes.add(node)
+                # 切换节点
+                node_switched = False
+                try:
+                    node_switched = switch_random_node_main_group(api_port, group_name, [node])
+                except Exception as e:
+                    print(f'❌ 节点切换失败: {e}')
+                    mihomo_proc.terminate()
+                    continue
+                print(f'🔄 已切换到主分组: {group_name} 节点: {node}')
+                # 连通性测试
+                if not is_node_available(proxy_port):
+                    print(f'⚠️  节点 {node} 无法连通 longsiye.nyyo.cn，自动跳过...')
+                    mihomo_proc.terminate()
+                    time.sleep(2)
+                    continue
+                # 可用节点，提交刷流
+                submitter = DouyinBatchSubmitterV2(base_url="https://longsiye.nyyo.cn")
+                success, message, order_info = submitter.submit_single_url(url)
+                mihomo_proc.terminate()
+                time.sleep(2)
+                break  # 成功或失败都跳出节点循环
+            except Exception as e:
+                print(f'❌ 处理节点时异常: {e}')
+                mihomo_proc.terminate()
+                time.sleep(2)
+                continue
         result = {
             'url': url,
             'success': success,
@@ -324,8 +347,6 @@ def main():
             'submit_time': datetime.now().isoformat()
         }
         results.append(result)
-        mihomo_proc.terminate()
-        time.sleep(2)  # 等待端口释放
         if i < len(urls):
             delay = random.uniform(delay_min, delay_max)
             print(f'⏳ 等待 {delay:.1f} 秒...')
