@@ -206,30 +206,14 @@ class DouyinBatchSubmitterV2:
                     return False, error_msg, {'error_type': 'api_error', 'response': result}
                     
             except (requests.exceptions.SSLError, ssl.SSLError) as e:
-                error_msg = f"SSL连接错误 (尝试 {attempt + 1}/{max_retries}): {e}"
-                self.logger.warning(error_msg)
-                
-                if attempt < max_retries - 1:
-                    wait_time = (attempt + 1) * 2  # 递增等待时间
-                    self.logger.info(f"⏳ 等待 {wait_time} 秒后重试...")
-                    time.sleep(wait_time)
-                    continue
-                else:
-                    self.logger.error(f"❌ SSL连接最终失败: {douyin_url}")
-                    return False, f"SSL连接失败: {e}", {'error_type': 'ssl_error'}
+                error_msg = f"SSL连接错误: {e}"
+                self.logger.error(f"❌ 提交失败: {douyin_url} -> {error_msg}")
+                return False, error_msg, {'error_type': 'ssl_error'}
                     
             except requests.exceptions.ConnectionError as e:
-                error_msg = f"网络连接错误 (尝试 {attempt + 1}/{max_retries}): {e}"
-                self.logger.warning(error_msg)
-                
-                if attempt < max_retries - 1:
-                    wait_time = (attempt + 1) * 2
-                    self.logger.info(f"⏳ 等待 {wait_time} 秒后重试...")
-                    time.sleep(wait_time)
-                    continue
-                else:
-                    self.logger.error(f"❌ 网络连接最终失败: {douyin_url}")
-                    return False, f"网络连接失败: {e}", {'error_type': 'connection_error'}
+                error_msg = f"网络连接错误: {e}"
+                self.logger.error(f"❌ 提交失败: {douyin_url} -> {error_msg}")
+                return False, error_msg, {'error_type': 'connection_error'}
                     
             except requests.exceptions.RequestException as e:
                 error_msg = f"网络请求异常: {e}"
@@ -240,8 +224,8 @@ class DouyinBatchSubmitterV2:
                 self.logger.error(f"❌ 提交失败: {douyin_url} -> {error_msg}")
                 return False, error_msg, {'error_type': 'unknown_error'}
         
-        # 如果所有重试都失败了
-        return False, "所有重试都失败了", {'error_type': 'max_retries_exceeded'}
+        # 如果所有重试都失败了 (理论上不应该到达这里，因为异常已被捕获并返回)
+        return False, "未知提交错误或所有尝试失败", {'error_type': 'final_failure'}
     
     def batch_submit(self, urls: List[str], max_workers: int = 1, delay_range: Tuple[int, int] = (3, 8)) -> List[Dict]:
         """批量提交抖音链接"""

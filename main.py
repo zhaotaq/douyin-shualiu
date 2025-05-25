@@ -166,7 +166,7 @@ def start_mihomo(mihomo_path, config_path):
         mihomo_path,
         '-d', '.',
         '-f', config_path
-    ])
+    ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return proc
 
 def wait_mihomo_api(api_port, timeout=30):
@@ -292,60 +292,133 @@ def main():
     if confirm != 'y':
         print('❌ 已取消')
         return
+    
     print(f'\n🚀 开始批量提交...')
+    
+    # Estimate total time based on delay
+    avg_delay = (delay_min + delay_max) / 2
+    estimated_min_time = len(urls) * avg_delay
+    print(f'⏳ 估算最小完成时间 (仅考虑延迟): 约 {estimated_min_time:.1f} 秒')
+
     results = []
     for i, url in enumerate(urls, 1):
+        # Print progress
+        print(f'\n--- 处理进度: {i}/{len(urls)} ---')
+
         tried_nodes = set()
         success = False
         message = ''
         order_info = {}
-        for _ in range(len(all_nodes)):
-            # 每次都重启mihomo
+        node_used_for_success = None
+        
+        # Attempt to submit with different nodes, up to 10 times or until successful/other error
+        max_attempts = 10
+        attempt_count = 0
+        
+        available_nodes_for_url = list(all_nodes) # Create a mutable list to shuffle and pick from
+        random.shuffle(available_nodes_for_url)
+
+        # Use a while loop to control attempts based on result
+        while attempt_count < max_attempts and available_nodes_for_url:
+            attempt_count += 1
+            
+            # Select a node that hasn't been tried for this URL in this attempt block yet
+            # We shuffle the list once before the loop, so just pick the next available one
+            node = available_nodes_for_url.pop(0)
+            tried_nodes.add(node) # Keep track of nodes tried in total for this URL
+            
+            print(f'🔄 尝试节点 ({attempt_count}/{max_attempts}): {node}')
+
+            # Start mihomo for this attempt
             mihomo_proc = start_mihomo(mihomo_path, config_path)
             if not wait_mihomo_api(api_port):
-                print('❌ mihomo启动失败')
+                print('❌ mihomo启动失败，尝试下一个节点')
                 mihomo_proc.terminate()
-                continue
+                time.sleep(2) # Short delay before next attempt
+                continue # Continue to next node attempt
+            
             try:
-                # 只选没试过的节点
-                available_nodes = [n for n in all_nodes if n not in tried_nodes]
-                if not available_nodes:
-                    break
-                node = random.choice(available_nodes)
-                tried_nodes.add(node)
-                # 切换节点
-                node_switched = False
+                # Switch node
                 try:
-                    node_switched = switch_random_node_main_group(api_port, group_name, [node])
+                    switch_random_node_main_group(api_port, group_name, [node])
                 except Exception as e:
-                    print(f'❌ 节点切换失败: {e}')
+                    print(f'❌ 节点切换失败 ({node}): {e}，尝试下一个节点')
                     mihomo_proc.terminate()
-                    continue
-                print(f'🔄 已切换到主分组: {group_name} 节点: {node}')
-                # 连通性测试
-                if not is_node_available(proxy_port):
-                    print(f'⚠️  节点 {node} 无法连通 longsiye.nyyo.cn，自动跳过...')
-                    mihomo_proc.terminate()
-                    time.sleep(2)
-                    continue
+                    time.sleep(2) # Short delay before next attempt
+                    continue # Continue to next node attempt
+
                 # 可用节点，提交刷流
                 submitter = DouyinBatchSubmitterV2(base_url="https://longsiye.nyyo.cn")
-                success, message, order_info = submitter.submit_single_url(url)
+                
+                submit_success = False
+                submit_message = ''
+                submit_order_info = {}
+
+                try:
+                    submit_success, submit_message, submit_order_info = submitter.submit_single_url(url)
+                except requests.exceptions.SSLError as ssl_error:
+                    print(f'❌ 提交时发生SSL连接错误 ({node}): {ssl_error}，立即尝试下一个节点')
+                    # Terminate mihomo and continue to the next node attempt
+                    mihomo_proc.terminate()
+                    time.sleep(2) # Short delay after exception
+                    # Set values to reflect failure for this node attempt
+                    success = False
+                    message = f'SSL连接错误 ({node}): {ssl_error}'
+                    order_info = {}
+                    continue # Continue the while loop to try the next node
+                except Exception as api_error:
+                     # Catch other potential exceptions from submit_single_url
+                     print(f'❌ 提交时发生其他异常 ({node}): {api_error}，停止尝试该链接的其他节点')
+                     # Terminate mihomo
+                     mihomo_proc.terminate()
+                     time.sleep(2) # Short delay after exception
+                     # Set values to reflect failure and break
+                     success = False
+                     message = f'提交异常 ({node}): {api_error}'
+                     order_info = {}
+                     break # Break the node attempt loop for this URL
+
                 mihomo_proc.terminate()
-                time.sleep(2)
-                break  # 成功或失败都跳出节点循环
+                time.sleep(2) # Delay after submission attempt
+                
+                success = submit_success
+                message = submit_message
+                order_info = submit_order_info
+
+                # Check if successful or if it's the specific 'already received' message
+                if success:
+                    node_used_for_success = node
+                    print(f'✅ 提交成功！使用节点: {node}')
+                    break # Success, break the node attempt loop
+                elif "您今天已领取过" in message or "重复提交" in message:
+                    print(f'ℹ️ 节点 {node} 已领取过/重复提交，尝试下一个节点...')
+                    if attempt_count == max_attempts or not available_nodes_for_url:
+                         print(f'❌ 已达到最大尝试次数 ({max_attempts}) 或无可用节点，提交失败')
+                         # If max attempts reached, the last result (failure) will be recorded
+                    continue # Continue the while loop to try the next node
+                else:
+                    # Other failure, record and break node loop
+                    print(f'❌ 提交失败 ({node}): {message}，停止尝试该链接的其他节点')
+                    break # Other failure, break the node attempt loop
+
             except Exception as e:
-                print(f'❌ 处理节点时异常: {e}')
+                print(f'❌ 处理节点时异常 ({node}): {e}，尝试下一个节点')
                 mihomo_proc.terminate()
-                time.sleep(2)
-                continue
+                time.sleep(2) # Short delay after exception
+                # Check if it was the last attempt
+                if attempt_count == max_attempts or not available_nodes_for_url:
+                     print(f'❌ 已达到最大尝试次数 ({max_attempts}) 或无可用节点，提交失败')
+                     # The last recorded message/success will be the exception message
+                continue # Continue the while loop to try the next node
+
+        # End of node attempt loop for the current URL
         result = {
             'url': url,
             'success': success,
             'message': message,
             'order_info': order_info,
             'submit_time': datetime.now().isoformat(),
-            'node_used': node if success else None
+            'node_used': node_used_for_success # Record node only on final success
         }
         results.append(result)
         if i < len(urls):
