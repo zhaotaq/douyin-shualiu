@@ -16,6 +16,7 @@ python main.py
 
 - **快速测试** - 测试单个链接，验证API连接
 - **批量提交** - 批量提交多个视频链接
+- **自动代理切换** - 每刷一个链接自动切换clash verge节点
 
 ## 文件说明
 
@@ -36,6 +37,15 @@ python main.py
 https://www.douyin.com/video/7502340698369234567
 https://v.douyin.com/iFhMj2R/
 ```
+
+## Clash Verge 集成说明
+
+- 程序会自动通过 Clash Verge API 切换节点，每刷一个链接自动切换一个节点。
+- 代理端口：`7897`
+- Clash Verge API 地址：`http://127.0.0.1:9097`
+- 节点切换后会自动检测是否切换成功。
+- 请确保 Clash Verge 已开启 RESTful API 并允许本地访问。
+- 支持节点分组自动轮换。
 
 ## 注意事项
 
