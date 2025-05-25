@@ -18,17 +18,17 @@ from datetime import datetime
 import ssl
 import urllib3
 import os
+import httpx
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class DouyinBatchSubmitterV2:
-    """抖音刷量批量提交器 - V2版本"""
-    
-    def __init__(self, base_url: str = "https://longsiye.nyyo.cn"):
+    """抖音刷量批量提交器 - 只负责刷流，代理切换由外部(main.py)控制"""
+    def __init__(self, base_url: str = "https://longsiye.nyyo.cn", proxy_port: int = 9950):
         self.base_url = base_url
         self.session = requests.Session()
-        self.setup_session()
+        self.setup_session(proxy_port)
         self.setup_logging()
         
         # API端点
@@ -58,8 +58,13 @@ class DouyinBatchSubmitterV2:
             'start_time': None
         }
     
-    def setup_session(self):
-        """设置会话请求头"""
+    def setup_session(self, proxy_port):
+        # 设置代理，所有请求都走本地clash/mihomo代理
+        self.session.proxies = {
+            'http': f'http://127.0.0.1:{proxy_port}',
+            'https': f'http://127.0.0.1:{proxy_port}',
+        }
+        # 参考goodcode补全headers
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'application/json, text/javascript, */*; q=0.01',
@@ -75,12 +80,9 @@ class DouyinBatchSubmitterV2:
             'Sec-Fetch-Site': 'same-origin'
         }
         self.session.headers.update(headers)
-        
-        # 设置会话配置 - 修复SSL问题
-        self.session.verify = False  # 暂时禁用SSL验证
-        self.session.timeout = 30
-        
-        # 配置SSL适配器
+        # 禁用SSL验证，防止代理证书问题
+        self.session.verify = False
+        # 配置SSL适配器和重试
         adapter = requests.adapters.HTTPAdapter(
             max_retries=3,
             pool_connections=10,
@@ -88,7 +90,7 @@ class DouyinBatchSubmitterV2:
         )
         self.session.mount('https://', adapter)
         self.session.mount('http://', adapter)
-    
+
     def setup_logging(self):
         """设置日志记录"""
         # 确保logs目录存在
@@ -98,10 +100,6 @@ class DouyinBatchSubmitterV2:
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler(f'logs/douyin_submitter_v2_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log', encoding='utf-8'),
-                logging.StreamHandler()
-            ]
         )
         self.logger = logging.getLogger(__name__)
     
@@ -245,7 +243,7 @@ class DouyinBatchSubmitterV2:
         # 如果所有重试都失败了
         return False, "所有重试都失败了", {'error_type': 'max_retries_exceeded'}
     
-    def batch_submit(self, urls: List[str], max_workers: int = 1, delay_range: Tuple[int, int] = (2, 5)) -> List[Dict]:
+    def batch_submit(self, urls: List[str], max_workers: int = 1, delay_range: Tuple[int, int] = (3, 8)) -> List[Dict]:
         """批量提交抖音链接"""
         self.stats['start_time'] = datetime.now()
         self.stats['total_submitted'] = len(urls)
@@ -255,7 +253,6 @@ class DouyinBatchSubmitterV2:
         self.logger.info(f"🚀 开始批量提交，共 {len(urls)} 个链接")
         self.logger.info(f"📋 使用真实API接口: {self.endpoints['pay']}")
         
-        # 单线程顺序提交
         for i, url in enumerate(urls, 1):
             self.logger.info(f"📤 提交进度: {i}/{len(urls)} - {url}")
             
@@ -297,6 +294,8 @@ class DouyinBatchSubmitterV2:
         self.logger.info(f"失败数量: {self.stats['failed_count']}")
         if self.stats['total_submitted'] > 0:
             self.logger.info(f"成功率: {(self.stats['success_count']/self.stats['total_submitted']*100):.1f}%")
+        else:
+            self.logger.info("成功率: 0.0%（无有效提交）")
         self.logger.info(f"总耗时: {duration}")
         self.logger.info("=" * 60)
     
@@ -328,23 +327,9 @@ class DouyinBatchSubmitterV2:
         self.logger.info("🔧 测试API连接...")
         
         try:
-            # 测试一个已知会失败的请求（重复提交）来验证API是否正常
-            test_url = "https://www.douyin.com/video/7502340474670206234"
-            success, message, order_info = self.submit_single_url(test_url)
-            
-            # 如果是重复提交错误，说明API正常工作
-            if "重复提交" in message:
-                self.logger.info("✅ API连接正常（检测到重复提交限制）")
-                return True
-            elif success:
-                self.logger.info("✅ API连接正常（提交成功）")
-                return True
-            else:
-                self.logger.warning(f"⚠️ API响应异常: {message}")
-                return False
-                
-        except Exception as e:
-            self.logger.error(f"❌ 连接测试失败: {e}")
+            resp = self.session.get(self.base_url, timeout=5)
+            return resp.status_code == 200
+        except Exception:
             return False
 
 
