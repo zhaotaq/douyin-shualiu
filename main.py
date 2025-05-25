@@ -250,6 +250,7 @@ def main():
             print(f'已自动修正配置文件端口为 {proxy_port}/{api_port}')
         else:
             print(f'检测到已存在配置文件 {config_path}，将直接复用。')
+    # 获取所有节点信息（只需一次）
     print('🚀 启动mihomo代理内核...')
     mihomo_proc = start_mihomo(mihomo_path, config_path)
     print('⏳ 等待代理API端口启动...')
@@ -260,6 +261,8 @@ def main():
     print('✅ mihomo已启动，API可用')
     group_name, all_nodes = get_main_group_and_all_nodes(api_port)
     print(f'检测到主分组: {group_name}，共{len(all_nodes)}个真实节点')
+    mihomo_proc.terminate()
+    time.sleep(2)
     # 选择刷流模式
     urls = []
     print('请输入抖音视频链接（每行一个，输入空行结束）:')
@@ -270,7 +273,6 @@ def main():
         urls.append(url)
     if not urls:
         print('❌ 没有可提交的链接')
-        mihomo_proc.terminate()
         return
     print(f'📋 共有 {len(urls)} 个链接待提交')
     delay_min = float(input('最小延迟时间（秒，默认3）: ') or '3')
@@ -278,18 +280,24 @@ def main():
     confirm = input(f'\n确认提交 {len(urls)} 个链接？(y/n): ').lower()
     if confirm != 'y':
         print('❌ 已取消')
-        mihomo_proc.terminate()
         return
     print(f'\n🚀 开始批量提交...')
-    submitter = DouyinBatchSubmitterV2(base_url="https://longsiye.nyyo.cn")
     results = []
     for i, url in enumerate(urls, 1):
+        # 每次都重启mihomo
+        mihomo_proc = start_mihomo(mihomo_path, config_path)
+        if not wait_mihomo_api(api_port):
+            print('❌ mihomo启动失败')
+            mihomo_proc.terminate()
+            continue
         try:
             node = switch_random_node_main_group(api_port, group_name, all_nodes)
             print(f'🔄 已切换到主分组: {group_name} 节点: {node}')
         except Exception as e:
             print(f'❌ 节点切换失败: {e}')
+            mihomo_proc.terminate()
             continue
+        submitter = DouyinBatchSubmitterV2(base_url="https://longsiye.nyyo.cn")
         success, message, order_info = submitter.submit_single_url(url)
         result = {
             'url': url,
@@ -299,6 +307,8 @@ def main():
             'submit_time': datetime.now().isoformat()
         }
         results.append(result)
+        mihomo_proc.terminate()
+        time.sleep(2)  # 等待端口释放
         if i < len(urls):
             delay = random.uniform(delay_min, delay_max)
             print(f'⏳ 等待 {delay:.1f} 秒...')
@@ -312,8 +322,6 @@ def main():
         print(f"📈 成功率: {(success_count/total_count*100):.1f}%")
     else:
         print("📈 成功率: 0.0%（无有效提交）")
-    # 关闭mihomo
-    mihomo_proc.terminate()
     print('🛑 mihomo已关闭')
 
 if __name__ == "__main__":
