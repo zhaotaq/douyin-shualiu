@@ -1,0 +1,406 @@
+[
+    {
+        "url": "https://www.douyin.com/video/7504691502912752947",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7504691502912752947",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "25754986d5d1a64f49985813e247e47f",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:40:36.339149",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:40:38.339965",
+        "node_used": "DIRECT"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502340698369314098",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7502340698369314098",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "5300af77b029346dd36bef268cbfb7fd",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:40:47.434474",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:40:49.436474",
+        "node_used": "🇬🇧 UK01"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502340474670206234",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7502340474670206234",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "b2fb12f6b03c1ef9d750aedd24c33771",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:40:54.125858",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:40:56.126490",
+        "node_used": "🇯🇵 JP01"
+    },
+    {
+        "url": "https://www.douyin.com/video/7504680616256916786",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7504680616256916786",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "35c926672f99c72c44f1280276d66966",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:41:00.076495",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:41:02.077460",
+        "node_used": "🇰🇷 韩国04"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502340228137454874",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7502340228137454874",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "864a67cd143e5095d485996be51b80d6",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:41:11.593045",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:41:13.593791",
+        "node_used": "🇰🇷 [Hy2]KR-ORACLE"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502339719120915722",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7502339719120915722",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "13149666a31b48b3d6130be31984b146",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:41:18.297632",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:41:20.298616",
+        "node_used": "🇭🇰 苏打-香港05 x1"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502339265439878451",
+        "success": false,
+        "message": "网络请求异常: HTTPSConnectionPool(host='longsiye.nyyo.cn', port=443): Read timed out. (read timeout=15)",
+        "order_info": {
+            "error_type": "network_error"
+        },
+        "submit_time": "2025-05-26T02:41:43.947954",
+        "node_used": null
+    },
+    {
+        "url": "https://www.douyin.com/video/7502338764086283530",
+        "success": true,
+        "message": "验证成功: 您今天添加的免费-DY作品播放1000个正在排队中，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7502338764086283530",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "6232b7075bbaa93e5c4dd2a939441fc6",
+            "response": {
+                "code": -1,
+                "msg": "您今天添加的免费-DY作品播放1000个正在排队中，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:42:01.520959",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:42:03.521852",
+        "node_used": "🇮🇱 以色列IL-T 3"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502338430777543974",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7502338430777543974",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "e48133606709ccbb25d9e5f12f1859b9",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:42:16.546548",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:42:18.547597",
+        "node_used": "🇸🇬 VIP SG01"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502337875879496969",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7502337875879496969",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "895102b5128c6b7980e0bdac9e4fbfea",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:42:22.549586",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:42:24.551376",
+        "node_used": "🇸🇬 [核心] 新加坡 03"
+    },
+    {
+        "url": "https://www.douyin.com/video/7502337438006660403",
+        "success": false,
+        "message": "您今天已领取过，请明天再来！",
+        "order_info": {
+            "error_type": "api_error",
+            "response": {
+                "code": -1,
+                "msg": "您今天已领取过，请明天再来！"
+            }
+        },
+        "submit_time": "2025-05-26T02:42:35.016870",
+        "node_used": null
+    },
+    {
+        "url": "https://www.douyin.com/video/7499907623341395212",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499907623341395212",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "ab33bd1a4aedb587e9efdd6a5da7b41c",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:42:45.563696",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:42:47.564669",
+        "node_used": "🇭🇰 香港01"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499908457831746870",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499908457831746870",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "7f105977bc7f9f58354e34d60a33b13f",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:42:51.418297",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:42:53.419263",
+        "node_used": "🇸🇬 SG05"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499907524234169639",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499907524234169639",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "657528d4c33309de1129117464276f00",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:42:57.358347",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:42:59.360229",
+        "node_used": "🇭🇰 香港08"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499906303649762614",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499906303649762614",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "602e4b1bb6e2c5496aa9d7f234fb87d2",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:43:10.719918",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:43:12.721094",
+        "node_used": "🇭🇰 [核心] 香港 07"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499906701907315979",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499906701907315979",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "b96a62c3d2aef0e42dc883d0bf9ee17e",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:43:25.642049",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:43:27.642728",
+        "node_used": "🇰🇭 柬埔寨KH-T 3"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499904036297084171",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499904036297084171",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "fe74aa9afd4146c7edb0cef04950daad",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:43:42.530282",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:43:44.531336",
+        "node_used": "尼尔利亚"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499904059365690660",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499904059365690660",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "30ad8f3b1871cbb0fc2d19dc26139895",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:43:48.045935",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:43:50.046700",
+        "node_used": "🇯🇵 苏打-日本03 x1"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499417705783512356",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499417705783512356",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "65fd3c1c72e9f66a410e208165d55137",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:44:07.634619",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:44:09.635704",
+        "node_used": "🇮🇱 以色列IL-T"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499348119126150441",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499348119126150441",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "520ff5ac98575e051e7d02cd98247dd6",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:44:16.315183",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:44:18.315755",
+        "node_used": "🇺🇸 美国07"
+    },
+    {
+        "url": "https://www.douyin.com/video/7499329591115369740",
+        "success": true,
+        "message": "验证成功: 您今天已添加过免费-DY作品播放1000个，请勿重复提交！",
+        "order_info": {
+            "douyin_url": "https://www.douyin.com/video/7499329591115369740",
+            "tid": "3210",
+            "num": "1",
+            "hashsalt": "06f84c7c09fdf2d63620dd0543b90edf",
+            "response": {
+                "code": -1,
+                "msg": "您今天已添加过免费-DY作品播放1000个，请勿重复提交！"
+            },
+            "submit_time": "2025-05-26T02:44:29.454026",
+            "attempts": 1,
+            "status": "duplicate_success"
+        },
+        "submit_time": "2025-05-26T02:44:31.454869",
+        "node_used": "🇹🇼 苏打-台湾01 x1"
+    }
+]

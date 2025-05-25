@@ -344,7 +344,8 @@ def main():
             'success': success,
             'message': message,
             'order_info': order_info,
-            'submit_time': datetime.now().isoformat()
+            'submit_time': datetime.now().isoformat(),
+            'node_used': node if success else None
         }
         results.append(result)
         if i < len(urls):
@@ -361,6 +362,14 @@ def main():
     else:
         print("📈 成功率: 0.0%（无有效提交）")
     print('🛑 mihomo已关闭')
+
+    # Save results to a JSON file
+    try:
+        with open('submission_results.json', 'w', encoding='utf-8') as f:
+            json.dump(results, f, indent=4, ensure_ascii=False)
+        print("✅ 详细提交结果已保存到 submission_results.json")
+    except Exception as e:
+        print(f"❌ 保存结果到文件失败: {e}")
 
 if __name__ == "__main__":
     main() 
