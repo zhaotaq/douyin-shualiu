@@ -4,13 +4,26 @@
 
 ## 快速开始
 
-```bash
-# 安装依赖
-pip install -r requirements.txt
+1.  **克隆仓库:**
+    ```bash
+    git clone https://github.com/zhaotaq/douyin-shualiu.git
+    cd douyin-shualiu
+    ```
 
-# 运行程序
-python main.py
-```
+2.  **安装依赖:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **配置:**
+    *   编辑 `config.json` 文件，根据需要修改 API 设置、提交设置和产品信息。
+    *   确保 `clash_config.yaml` 是有效的 Clash/Mihomo 配置文件，并根据需要调整。
+    *   将要刷量的抖音视频链接添加到 `douyin_urls.txt` 文件中，每行一个。
+
+4.  **运行程序:**
+    ```bash
+    python main.py
+    ```
 
 ## 功能说明
 
@@ -25,6 +38,8 @@ python main.py
 - `final_douyin_submitter.py` - 完整版程序
 - `quick_start.py` - 快速启动脚本
 - `logs/` - 日志文件目录
+- `config.json` - 项目主要配置文件，包含 API、提交和产品信息。
+- `clash_config.yaml` - Clash/Mihomo 代理配置文件。
 
 ## 使用方式
 

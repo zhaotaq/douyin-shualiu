@@ -428,12 +428,29 @@ def main():
 
     # 选择刷流模式
     urls = []
-    print('请输入抖音视频链接（每行一个，输入空行结束）:')
-    while True:
-        url = input('链接: ').strip()
-        if not url:
-            break
-        urls.append(url)
+    mode = input('请选择链接加载模式（1: 手动输入, 2: 从 douyin_urls.txt 加载，默认为 1）: ') or '1'
+
+    if mode == '2':
+        try:
+            urls = load_urls_from_file()
+            if not urls:
+                print('⚠️ douyin_urls.txt 文件为空或读取失败，请检查。切换到手动输入模式。')
+                mode = '1' # Fallback to manual input
+        except FileNotFoundError:
+            print('⚠️ 未找到 douyin_urls.txt 文件，切换到手动输入模式。')
+            mode = '1' # Fallback to manual input
+        except Exception as e:
+            print(f'❌ 从 douyin_urls.txt 加载链接失败: {e}。切换到手动输入模式。')
+            mode = '1' # Fallback to manual input
+
+    if mode == '1':
+        print('请输入抖音视频链接（每行一个，输入空行结束）:')
+        while True:
+            url = input('链接: ').strip()
+            if not url:
+                break
+            urls.append(url)
+
     if not urls:
         print('❌ 没有可提交的链接')
         return
