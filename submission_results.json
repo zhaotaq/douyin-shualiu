@@ -2779,5 +2779,13 @@
         },
         "submit_time": "2025-05-26T15:12:31.689784",
         "node_used": "🇹🇼 台湾-优化 3"
+    },
+    {
+        "url": "www.baiduc.com",
+        "success": false,
+        "message": "无效的抖音链接格式",
+        "order_info": {},
+        "submit_time": "2025-05-26T19:46:28.244649",
+        "node_used": null
     }
 ]
