@@ -76,6 +76,34 @@ def quick_test():
             print("❌ 可能存在其他问题")
             return False
 
+def load_failed_urls(filename: str = "douyin_fallurls.txt") -> list:
+    """从失败链接文件加载URL列表，并移除日期标记"""
+    urls = []
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#'): # 忽略空行和以#开头的注释行
+                    continue
+                # 查找并移除日期标记 #YYYY-MM-DD
+                if '#' in line:
+                    parts = line.split('#', 1) # 只按第一个#分割
+                    url = parts[0].strip()
+                    # 可以选择进一步校验日期格式，但这里简化为移除#后的所有内容
+                else:
+                    url = line
+                if url:
+                    urls.append(url)
+        if not urls:
+            print(f"⚠️ 文件 {filename} 为空或不包含有效链接")
+        return urls
+    except FileNotFoundError:
+        print(f"❌ 文件 {filename} 不存在")
+        return []
+    except Exception as e:
+        print(f"❌ 从 {filename} 加载链接失败: {e}")
+        return []
+
 def batch_submit(mihomo_path, config_path, proxy_port, api_port, group_name, all_nodes, urls, delay_min, delay_max):
     """批量提交功能"""
     print("🚀 批量提交模式")
@@ -242,6 +270,18 @@ def batch_submit(mihomo_path, config_path, proxy_port, api_port, group_name, all
             final_message = last_error_message if last_error_message else f'❌ URL {url} 在所有 {attempt_count} 次尝试后仍然失败。无具体错误信息。'
             print(f"❌ URL {url} 最终提交失败 (原因: {final_message})")
             message = final_message # Update the message for the result object
+
+            # === 新增代码块：记录失败链接到文件 ===
+            failed_urls_filename = "douyin_fallurls.txt"
+            current_date = datetime.now().strftime("#%Y-%m-%d")
+            failed_line = f"{url}{current_date}\\n" # Added double backslash for escaping in code_edit string
+            try:
+                with open(failed_urls_filename, 'a', encoding='utf-8') as f:
+                    f.write(failed_line)
+                print(f"📝 失败链接已记录到 {failed_urls_filename}")
+            except Exception as write_e:
+                print(f"❌ 记录失败链接到 {failed_urls_filename} 失败: {write_e}")
+            # ====================================
 
         # Record the result for this URL
         result = {
@@ -428,35 +468,35 @@ def main():
 
     # 选择刷流模式
     urls = []
-    mode = input('请选择链接加载模式（1: 手动输入, 2: 从 douyin_urls.txt 加载，默认为 1）: ') or '1'
+    mode = input('请选择链接加载模式（1: 手动输入, 2: 从 douyin_urls.txt 加载, 3: 从 douyin_fallurls.txt 加载失败链接，默认为 1）: ') or '1'
 
     if mode == '2':
         try:
             urls = load_urls_from_file()
             if not urls:
-                print('⚠️ douyin_urls.txt 文件为空或读取失败，请检查。切换到手动输入模式。')
-                mode = '1' # Fallback to manual input
+                print('⚠️ douyin_urls.txt 文件为空或读取失败，请检查。')
         except FileNotFoundError:
-            print('⚠️ 未找到 douyin_urls.txt 文件，切换到手动输入模式。')
-            mode = '1' # Fallback to manual input
+            print('⚠️ 未找到 douyin_urls.txt 文件。')
         except Exception as e:
-            print(f'❌ 从 douyin_urls.txt 加载链接失败: {e}。切换到手动输入模式。')
-            mode = '1' # Fallback to manual input
-
-    if mode == '1':
-        print('请输入抖音视频链接（每行一个，输入空行结束）:')
+            print(f'❌ 从 douyin_urls.txt 加载链接失败: {e}。')
+    elif mode == '3':
+        print('🔄 从 douyin_fallurls.txt 加载失败链接...')
+        urls = load_failed_urls()
+    else:
+        print('✍️ 请输入抖音视频链接（每行一个，输入空行结束）:')
         while True:
             url = input('链接: ').strip()
             if not url:
                 break
             urls.append(url)
+        mode = '1'
 
     if not urls:
-        print('❌ 没有可提交的链接')
+        print('❌ 没有可提交的链接，或者加载失败文件为空。')
         return
     print(f'📋 共有 {len(urls)} 个链接待提交')
-    delay_min = float(input('最小延迟时间（秒，默认3）: ') or '3')
-    delay_max = float(input('最大延迟时间（秒，默认8）: ') or '8')
+    delay_min = float(input('最小延迟时间（秒，默认0）: ') or '0')
+    delay_max = float(input('最大延迟时间（秒，默认1）: ') or '1')
     confirm = input(f'\n确认提交 {len(urls)} 个链接？(y/n): ').lower()
     if confirm != 'y':
         print('❌ 已取消')
