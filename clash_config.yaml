@@ -244,10 +244,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -260,10 +260,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -276,10 +276,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -292,14 +292,14 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - client-fingerprint: chrome
   name: 🇯🇵 日本JP-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: jp.mjt000.com
   skip-cert-verify: false
@@ -307,7 +307,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇸🇬 新加坡SG-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: sg.mjt000.com
   skip-cert-verify: false
@@ -315,7 +315,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇰🇭 柬埔寨KH-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: kh.mjt000.com
   skip-cert-verify: false
@@ -323,7 +323,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇺🇸 美国USLA-T-GPT
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: usla.mjt000.com
   skip-cert-verify: false
@@ -340,10 +340,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -356,10 +356,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -372,10 +372,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -388,10 +388,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -404,10 +404,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -420,10 +420,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -436,14 +436,14 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - client-fingerprint: chrome
   name: 🇭🇰 香港wap-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: waphk.mjt000.com
   skip-cert-verify: false
@@ -451,7 +451,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇹🇼 台湾WAP-T-GPT
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: hinet.mjt000.com
   skip-cert-verify: false
@@ -459,7 +459,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇻🇳 越南VN-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: vn.mjt000.com
   skip-cert-verify: false
@@ -476,10 +476,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -492,10 +492,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -508,10 +508,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -524,10 +524,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -540,10 +540,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -556,10 +556,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -572,10 +572,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -588,10 +588,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -604,10 +604,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -620,10 +620,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -636,10 +636,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -652,10 +652,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -668,10 +668,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -684,10 +684,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -700,14 +700,14 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  uuid: 43fd56e3-5da9-4830-9792-cf511df29d9d
   ws-opts:
     headers:
-      Host: 4e605a39f8f529ea9b6d5a13d2c8db75.mobgslb.tbcache.com
+      Host: 4f1fa3d50d4707784de4e6e36f473e10.mobgslb.tbcache.com
     path: /
 - client-fingerprint: chrome
   name: 🇦🇺 澳大利亚AU-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: au.mjt000.com
   skip-cert-verify: false
@@ -715,7 +715,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇹🇷 土耳其TR-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: tr.mjt000.com
   skip-cert-verify: false
@@ -723,7 +723,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇰🇵 朝鲜KP-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: kp.mjt000.com
   skip-cert-verify: false
@@ -731,7 +731,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇮🇹 意大利IT-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: it.mjt000.com
   skip-cert-verify: false
@@ -739,7 +739,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇵🇹 葡萄牙PT-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: pt.mjt000.com
   skip-cert-verify: false
@@ -747,7 +747,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇷🇺 俄罗斯RU-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: ru.mjt000.com
   skip-cert-verify: false
@@ -755,7 +755,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇰🇿 哈萨克斯坦KZ-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: kz.mjt000.com
   skip-cert-verify: false
@@ -763,7 +763,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇺🇦 乌克兰UA-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: ua.mjt000.com
   skip-cert-verify: false
@@ -771,7 +771,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇮🇱 以色列IL-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: il.mjt000.com
   skip-cert-verify: false
@@ -779,7 +779,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇬🇧 英国UK-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: uk.mjt000.com
   skip-cert-verify: false
@@ -787,12 +787,2565 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: 🇳🇬 尼日利亚NI-T
-  password: 2cbf9bff-e044-42d5-8eee-7adf59f9f3a0
+  password: 43fd56e3-5da9-4830-9792-cf511df29d9d
   port: 443
   server: ni.mjt000.com
   skip-cert-verify: false
   sni: ni.mjt000.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '电报群: https://t.me/emovpn x5'
+  network: ws
+  port: 443
+  server: v36.emoyes.top
+  servername: v36.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v36.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「加入会员解锁流媒体」x5
+  network: ws
+  port: 2053
+  server: v2.emoyes.top
+  servername: v2.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v2.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇩🇪」EMO | 冰灵果 x5
+  network: ws
+  port: 8443
+  server: v37.emoyes.top
+  servername: v37.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v37.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇮🇳」EMO | 牛油果 x5
+  network: ws
+  port: 2087
+  server: v019.emovpn.xyz
+  servername: v019.emovpn.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v019.emovpn.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇬🇧」EMO | 红富士 x5
+  network: ws
+  port: 8443
+  server: v34.emoyes.top
+  servername: v34.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v34.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇫🇷」EMO | 冰糖心 x5
+  network: ws
+  port: 443
+  server: v35.emoyes.top
+  servername: v35.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v35.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇺🇸」EMO | 芝麻蕉 x5
+  network: ws
+  port: 8443
+  server: v20.emoyes.top
+  servername: v20.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v20.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇸🇬」EMO | 西贡蕉 x5
+  network: ws
+  port: 8443
+  server: v32.emoyes.top
+  servername: v32.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v32.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇺🇸」EMO | 天元果 x5
+  network: ws
+  port: 443
+  server: v33.emoyes.top
+  servername: v33.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v33.emoyes.top
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 官方地址:https://www.0be.net
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 666
+  server: 1.1.1.1
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 备用地址:https://wzjmcabhhure.github.io
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 666
+  server: 1.1.1.1
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 建议使用前订阅或每30分钟订阅一次(重要!!!)
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 666
+  server: 1.1.1.1
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 39597
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 19121
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 20352
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15305
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 28829
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 29510
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 28516
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港4(每日动态) 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 45299
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 40291
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 46042
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港4(每日动态) 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 59793
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11001
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11003
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11004
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11002
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港4(每日动态) IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 40486
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50654
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 31510
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 28552
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港4(每日动态) 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 49491
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾4 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13550
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾3(动态IP) 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 54702
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾7(动态IP) 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 21451
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾8(动态IP) 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 21943
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾4 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 19178
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾3(动态IP) 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 21153
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾8(动态IP) 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41869
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾7(动态IP) 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 19059
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾4 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 12002
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾4 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 21378
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾3(动态IP) 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35266
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾7(动态IP) 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 24969
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾8(动态IP) 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41743
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 39073
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 57561
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本3 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 44178
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本1 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15693
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本1 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15693
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本3 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50089
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 59533
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 46111
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 26695
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50415
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13001
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本3 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13002
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本1 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13003
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 22093
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 58148
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 24124
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本3 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 34278
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本1 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 25613
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 28962
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 40381
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国6 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47243
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国6 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 20429
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国5 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 32133
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国5 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35035
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国6 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 24003
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国5 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 14003
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国6 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 38930
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国5 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 27248
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国4 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 49455
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国10 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47693
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国7(GTT) 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 38617
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国12 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 58531
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国4 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 33274
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国10 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 34431
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国7(GTT) 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 54234
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国12 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 34535
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国8 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47128
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国8 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 40843
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国4 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 16002
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国7(GTT) IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 16005
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国12 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13502
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国8 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 37039
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国4 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 49455
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国10 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 58140
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国7(GTT) 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 10531
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国12 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 18268
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国8 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50405
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇦 加拿大2 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 14765
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇦 加拿大2 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41617
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇦 加拿大2 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11315
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇦 加拿大2 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 31092
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇧🇷 巴西1 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41920
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇧🇷 巴西1 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 45039
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇧🇷 巴西1 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35993
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇪🇸 西班牙2 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35941
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇪🇸 西班牙2 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35941
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇪🇸 西班牙2 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 45385
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇷 阿根廷1 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 57811
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇷 阿根廷1 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 39829
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇷 阿根廷1 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 23120
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇻🇳 越南4 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13311
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇻🇳 越南3 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 45671
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇻🇳 越南4 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13311
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇻🇳 越南3 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 23771
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇻🇳 越南4 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 17001
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇻🇳 越南4 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 33321
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇻🇳 越南3 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 32127
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇭 泰国4 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 22927
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇭 泰国4 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41491
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇭 泰国4 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47476
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇲🇾 马来西亚1 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 30429
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇲🇾 马来西亚1 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 30429
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇲🇾 马来西亚3 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 54940
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇲🇾 马来西亚3 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 10479
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇲🇾 马来西亚3 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 34920
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇲🇾 马来西亚1 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 21429
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇲🇾 马来西亚3 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35137
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡6 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47421
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡6 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47318
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡3 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 40217
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡5 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 55099
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡3 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 40217
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡5 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35289
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡3 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15001
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡6 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 48465
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡5 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15003
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡6 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 65001
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡3 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 10028
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡5 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 30291
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇭 菲律宾1 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 56425
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇭 菲律宾1 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 56425
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇭 菲律宾1 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 31425
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇮🇩 印度尼西亚 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 34052
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇮🇩 印度尼西亚 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11864
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇮🇩 印度尼西亚 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13932
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇭 柬埔寨3 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 26720
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇭 柬埔寨3 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 30889
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇭 柬埔寨3 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 46266
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯1 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 45395
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯1 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 45395
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯1 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 22001
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯1 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35315
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇵 尼泊尔 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 43169
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇵 尼泊尔 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 23444
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇵 尼泊尔 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 18648
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇧🇩 孟加拉 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 58928
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇧🇩 孟加拉 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 54927
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇧🇩 孟加拉 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 48221
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇿 哈萨克斯坦 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 48463
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇿 哈萨克斯坦 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 27939
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇰🇿 哈萨克斯坦 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 27939
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇰 巴基斯坦 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 42465
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇰 巴基斯坦 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 42465
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇰 巴基斯坦 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 32461
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇭 瑞士 三网高级入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13341
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇭 瑞士 华东入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 58353
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇭 瑞士 华中入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 34675
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇬🇧 英国1 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35991
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇬🇧 英国1 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35991
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇬🇧 英国1 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41995
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇩🇪 德国4 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41145
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇩🇪 德国3 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 48530
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇩🇪 德国4 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41145
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇩🇪 德国3 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 13091
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇩🇪 德国4 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 43617
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇩🇪 德国3 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 38130
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国1 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11319
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国2 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 43411
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国1 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41999
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国2 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 31727
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国1 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11319
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇷 法国2 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 33671
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇪 瑞典 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 30381
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇪 瑞典 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 59587
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇪 瑞典 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 39017
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇸🇪 瑞典 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11417
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇮 芬兰  三网高级入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35395
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇮 芬兰  华东入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35395
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇫🇮 芬兰  华中入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 45391
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇿 捷克 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 12441
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇿 捷克 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 12441
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇨🇿 捷克 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 61746
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇱🇹 立陶宛 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11383
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇱🇹 立陶宛 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 58132
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇱🇹 立陶宛 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 59234
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇹 奥地利 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 12629
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇹 奥地利 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 52287
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇹 奥地利 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 12629
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇦 乌克兰  三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47479
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇦 乌克兰  华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 34403
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇦 乌克兰  华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 49991
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇱 波兰 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 39895
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇱 波兰 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 56927
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇱 波兰 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 38068
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇷 土耳其1  三网高级入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15969
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇷 土耳其1  华东入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15969
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇹🇷 土耳其1  华中入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 25961
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇪 阿联酋  三网高级入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 55800
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇪 阿联酋  华东入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 29973
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇪 阿联酋  华中入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 49740
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇿 阿塞拜疆1 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47884
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇿 阿塞拜疆1 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 41481
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇿 阿塞拜疆1 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50920
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇺 澳大利亚1 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35549
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇺 澳大利亚1 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 35549
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇺 澳大利亚3 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 33046
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇺 澳大利亚3 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 14769
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇺 澳大利亚1 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 15549
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇦🇺 澳大利亚3 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 23734
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇿 新西兰 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 54935
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇿 新西兰 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11150
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇿 新西兰 IPLC专线 [低延迟] [金融级安全] x8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 20001
+  server: 113.108.6.185
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇿 新西兰 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11961
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇬 尼日利亚4 三网高级入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 27990
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇬 尼日利亚4 华东入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 24801
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 伊拉克1 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 26729
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 伊拉克1 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 30145
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇳🇬 尼日利亚4 华中入口 [ISP] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 52074
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 伊拉克1 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 29671
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇪🇬 埃及 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 59597
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇪🇬 埃及 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 59597
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇪🇬 埃及 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 19517
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇿🇦 南非 三网高级入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 55817
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇿🇦 南非 华东入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 55313
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇿🇦 南非 华中入口 [原生] x1
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 14768
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 多哥1 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50079
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 多哥1 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50079
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 多哥1 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 31079
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇪 秘鲁1 华东入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 23777
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇪 秘鲁1 三网高级入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 11966
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇵🇪 秘鲁1 华中入口 [家宽] x1.2
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 23777
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 斐济(warp) 三网高级入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 50057
+  server: main-central.earthsurface.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 斐济(warp) 华东入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 56686
+  server: 36.156.184.93
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 斐济(warp) 华中入口 [非原生] x0.8
+  password: f2f9f8ed-c58d-4b22-8690-0b5a3bde1c19
+  port: 47814
+  server: 120.226.76.251
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong01-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22331
+  server: hk01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong02-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22332
+  server: hk02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong03-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22341
+  server: hk03tt.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk03tt.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong04-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22334
+  server: hk04t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk04t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong05-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22335
+  server: hk05t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk05t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong06-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22336
+  server: hk06t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk06t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong07-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22337
+  server: hk07t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk07t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong08-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22338
+  server: hk08t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk08t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong09-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22339
+  server: hk09t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk09t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [HK]HongKong10-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22340
+  server: hk10t.goodyun.buzz
+  skip-cert-verify: false
+  sni: hk10t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [CN]HK专线01-【5x】
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22350
+  server: hkiepl01.goodyun.buzz
+  skip-cert-verify: false
+  sni: hkiepl01.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰 [CN]HK专线02-【5x】
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 22351
+  server: hkiepl02.goodyun.buzz
+  skip-cert-verify: false
+  sni: hkiepl02.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [CN]SG专线01-【5x】
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26219
+  server: sgiepl001.goodyun.buzz
+  skip-cert-verify: false
+  sni: sgiepl001.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼 [CN]TW专线01-【5x】
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33922
+  server: twiepl01.goodyun.buzz
+  skip-cert-verify: false
+  sni: twiepl01.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo01
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35001
+  server: jp01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo02
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35002
+  server: jp02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo03
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35003
+  server: jp03t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp03t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo04
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35004
+  server: jp04t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp04t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo06
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35006
+  server: jp06t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp06t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo07
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35077
+  server: jp077t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp077t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo08
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 38088
+  server: jp08t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp08t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo09
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35009
+  server: jp09t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp09t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo10
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35010
+  server: jp10t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp10t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇯🇵 [JP]Tokyo11
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 35011
+  server: jp11t.goodyun.buzz
+  skip-cert-verify: false
+  sni: jp11t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore01
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26201
+  server: sg01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore02
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26202
+  server: sg02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore03
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26203
+  server: sg03t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg03t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore04
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26211
+  server: sg04t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg04t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore05
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26205
+  server: sg05t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg05t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore06
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26216
+  server: sg06t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg06t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore07
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26207
+  server: sg07t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg07t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore08
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26208
+  server: sg08t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg08t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore09
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26209
+  server: sg09t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg09t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬 [SG]Singapore10
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 26210
+  server: sg10t.goodyun.buzz
+  skip-cert-verify: false
+  sni: sg10t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国Los Angeles01-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33801
+  server: us01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国Los Angeles02-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33802
+  server: us02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国Los Angeles03-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33803
+  server: us03t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us03t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国Los Angeles04-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33805
+  server: us04t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us04t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国Santa Clara05-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33806
+  server: us05t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us05t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国Santa Clara06-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33807
+  server: us06t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us06t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国San Jose07-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33808
+  server: us07t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us07t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 [US]美国San Jose08-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33809
+  server: us08t.goodyun.buzz
+  skip-cert-verify: false
+  sni: us08t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼 [TW]TaiPei01-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33901
+  server: tw01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: tw01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼 [TW]TaiPei02-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33902
+  server: tw02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: tw02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼 [TW]TaiPei03-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33903
+  server: tw03t.goodyun.buzz
+  skip-cert-verify: false
+  sni: tw03t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼 [TW]TaiPei04-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33904
+  server: tw04t.goodyun.buzz
+  skip-cert-verify: false
+  sni: tw04t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼 [TW]TaiPei05-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33905
+  server: tw05t.goodyun.buzz
+  skip-cert-verify: false
+  sni: tw05t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇼 [TW]TaiPei06-GPT优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 33906
+  server: tw06t.goodyun.buzz
+  skip-cert-verify: false
+  sni: tw06t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇫🇷 [FR]法国-Paris01
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11001
+  server: fr01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: fr01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇫🇷 [FR]法国-Paris02
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11002
+  server: fr02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: fr02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇬🇧 [UK]英国Coventry01-BBC优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11003
+  server: uk01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: uk01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇬🇧 [UK]英国Coventry02-BBC优化
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11005
+  server: uk02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: uk02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇩🇪 [DE]德国-Frankfurt01
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11006
+  server: de01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: de01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇩🇪 [DE]德国-Frankfurt02
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11007
+  server: de02t.goodyun.buzz
+  skip-cert-verify: false
+  sni: de02t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇨🇦 [CA]加拿大-Toronto
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11008
+  server: ca01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: ca01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇳🇱 [NL]荷兰-Amsterdam
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11009
+  server: nl01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: nl01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇷🇺 [RU]俄罗斯-Moscow
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11010
+  server: ru01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: ru01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇹🇷 [TR]土耳其-Istanbul
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11011
+  server: tr01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: tr01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇮🇳 [IN]印度-bangalore
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11012
+  server: in01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: in01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇰🇷 [KR]韩国-Seoul
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11029
+  server: kr011t.goodyun.buzz
+  skip-cert-verify: false
+  sni: kr011t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇻🇳 [VN]越南-HoChiMinh
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11015
+  server: vn01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: vn01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇦🇺 [AU]澳大利亚-Sydney
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11016
+  server: au01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: au01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇳🇬 [NG]尼日利亚-Lagos
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11017
+  server: ng01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: ng01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇦🇷 [AR]阿根廷-BuenosAires
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11018
+  server: ar01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: ar01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇲🇰 [MK]马其顿-Macedonia
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11019
+  server: mk01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: mk01t.goodyun.buzz
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇦🇪 [AE]阿联酋-ArabEmirates
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 11028
+  server: ae01t.goodyun.buzz
+  skip-cert-verify: false
+  sni: ae01t.goodyun.buzz
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: '[境外用户专用]GPT01'
+  password: 990b48c7-fe04-4baf-bb64-7cf21d60434f
+  port: 19723
+  server: hkhw01.goodyun.buzz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '[ss]距离下次重置剩余：21 天'
+  password: 945970b9-1774-4a85-9e2a-b604eaa6868e
+  port: 40006
+  server: gz.occcc.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '[ss]过滤掉8条线路'
+  password: 945970b9-1774-4a85-9e2a-b604eaa6868e
+  port: 40006
+  server: gz.occcc.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇰🇷 [ss]KR-ORACLE-1-主
+  password: 945970b9-1774-4a85-9e2a-b604eaa6868e
+  port: 40006
+  server: gz.occcc.com
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 🇭🇰 香港-IEPL
@@ -1084,30 +3637,12 @@ proxies:
   type: hysteria2
 - auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
   client-fingerprint: chrome
-  name: 🇸🇬 新加坡05aws
-  password: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  port: 8080
-  server: sg05.453521.xyz
-  skip-cert-verify: false
-  sni: sg05.453521.xyz
-  type: hysteria2
-- auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  client-fingerprint: chrome
   name: 🇸🇬 新加坡06aws
   password: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
   port: 8080
   server: sg06.453521.xyz
   skip-cert-verify: false
   sni: sg06.453521.xyz
-  type: hysteria2
-- auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡07aws
-  password: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  port: 8080
-  server: sg07.344233.cc
-  skip-cert-verify: false
-  sni: sg07.344233.cc
   type: hysteria2
 - auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
   client-fingerprint: chrome
@@ -1126,24 +3661,6 @@ proxies:
   server: sg09.453521.xyz
   skip-cert-verify: false
   sni: sg09.453521.xyz
-  type: hysteria2
-- auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡10aws
-  password: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  port: 8080
-  server: sg10.352343.cc
-  skip-cert-verify: false
-  sni: sg10.352343.cc
-  type: hysteria2
-- auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡11aws
-  password: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  port: 8080
-  server: sg11.352343.cc
-  skip-cert-verify: false
-  sni: sg11.352343.cc
   type: hysteria2
 - auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
   client-fingerprint: chrome
@@ -1189,24 +3706,6 @@ proxies:
   server: sg17.352343.cc
   skip-cert-verify: false
   sni: sg17.352343.cc
-  type: hysteria2
-- auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡19aws
-  password: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  port: 8080
-  server: sg19.453521.xyz
-  skip-cert-verify: false
-  sni: sg19.453521.xyz
-  type: hysteria2
-- auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡21aws
-  password: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
-  port: 8080
-  server: sg21.453521.xyz
-  skip-cert-verify: false
-  sni: sg21.453521.xyz
   type: hysteria2
 - auth: 1b172cd2-193e-4dd8-9d62-ca9c4018b7f0
   client-fingerprint: chrome
@@ -1366,6 +3865,622 @@ proxies:
   skip-cert-verify: false
   sni: 2.2.2.2
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 过滤掉10条线路
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 专线去油管广告
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 请每月更-新一次订阅
+  network: ws
+  port: 2086
+  server: shopify.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: vmustr4kunsubgom.jjjiedian6j4tblb.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国1-baipiaoyes.top
+  network: ws
+  port: 2086
+  server: shopify.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: vmustr4kunsubgom.jjjiedian6j4tblb.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国2-baipiaoyes.top
+  network: ws
+  port: 2086
+  server: 141.193.213.76
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: gz4wah11v4bem6ws.lovebaipiao.com
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 🇺🇸 美国ipv6-5G-ss
+  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  port: 51751
+  server: 6ushrhml7ttpliy3.lovebaipiao.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯1-专线-去广告
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy1.lovebaipiao.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯2-专线-去广告
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy2.lovebaipiao.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /iphone
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: ipv6免流-请自行修改host
+  network: ws
+  port: 80
+  server: 6ernu3zmhsv7s95fm.lovebaipiao.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: 6ernu3zmhsv7s95fm.lovebaipiao.net
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本1
+  network: ws
+  port: 2086
+  server: 141.193.213.73
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: vmjpxbhwepm9t5bp.jjjiedian6j4tblb.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2
+  network: ws
+  port: 2086
+  server: 141.193.213.223
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: vmjpxbhwepm9t5bp.jjjiedian6j4tblb.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本3
+  network: ws
+  port: 2086
+  server: cloudflare.182682.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: vmjpxbhwepm9t5bp.jjjiedian6j4tblb.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇦 加拿大1
+  network: ws
+  port: 2086
+  server: digitalocean.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇦 加拿大2
+  network: ws
+  port: 2086
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇨🇦 加拿大3
+  network: ws
+  port: 2086
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: cae3mg9qsg55eo5lhq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡1
+  network: ws
+  port: 2086
+  server: cdn1.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  network: ws
+  port: 2086
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡3
+  network: ws
+  port: 2086
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港1丨白嫖机场.com
+  network: ws
+  port: 2086
+  server: cdn1.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2丨白嫖机场.com
+  network: ws
+  port: 2086
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港3丨白嫖机场.com
+  network: ws
+  port: 2086
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: Youtube破解广告1
+  network: ws
+  port: 2086
+  server: cdn1.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: erfpus962ivsb8pwri.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: Youtube破解广告2
+  network: ws
+  port: 2086
+  server: cloudflare.182682.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: erfpus962ivsb8pwri.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: Youtube破解广告3
+  network: ws
+  port: 2086
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: erfpus962ivsb8pwri.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇹🇷 土耳其1丨白嫖机场.com
+  network: ws
+  port: 80
+  server: cdn1.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇹🇷 土耳其2丨白嫖机场.com
+  network: ws
+  port: 80
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇹🇷 土耳其3丨白嫖机场.com
+  network: ws
+  port: 80
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇬🇧 英国1丨ChatGpt
+  network: ws
+  port: 2086
+  server: cdn1.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇬🇧 英国2丨ChatGpt
+  network: ws
+  port: 2086
+  server: cdn2.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇬🇧 英国3丨ChatGpt
+  network: ws
+  port: 2086
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速1
+  network: ws
+  port: 2086
+  server: 170.114.45.51
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速2
+  network: ws
+  port: 2086
+  server: 170.114.45.52
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速3
+  network: ws
+  port: 2086
+  server: 170.114.45.53
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速4
+  network: ws
+  port: 2086
+  server: csgo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速5
+  network: ws
+  port: 2086
+  server: digitalocean.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速6
+  network: ws
+  port: 2086
+  server: cloudflare.182682.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速7
+  network: ws
+  port: 2086
+  server: 141.193.213.167
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速8
+  network: ws
+  port: 2086
+  server: 141.193.213.168
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国光速9
+  network: ws
+  port: 2086
+  server: 141.193.213.169
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 🇸🇬 最新网址：Nicepro.cc
@@ -2894,565 +6009,158 @@ proxies:
   server: els.white.pp.ua
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: '[ss]距离下次重置剩余：25 天'
-  password: 945970b9-1774-4a85-9e2a-b604eaa6868e
-  port: 28090
-  server: 211.99.101.88
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '[ss]过滤掉8条线路'
-  password: 945970b9-1774-4a85-9e2a-b604eaa6868e
-  port: 28090
-  server: 211.99.101.88
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇰🇷 [ss]KR-ORACLE-IEPL
-  password: 945970b9-1774-4a85-9e2a-b604eaa6868e
-  port: 28090
-  server: 211.99.101.88
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇰🇷 [ss]KR-ORACLE-1-主
-  password: 945970b9-1774-4a85-9e2a-b604eaa6868e
-  port: 40006
-  server: gz.occcc.com
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 过滤掉10条线路
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  name: '电报群: https://t.me/emovpn x5 2'
+  network: ws
   port: 443
-  server: 141.193.213.94
+  server: v36.emoyes.top
+  servername: v36.emoyes.top
   skip-cert-verify: false
-  sni: ustrorxur6vt79grpe.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 美国Fast
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v36.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「加入会员解锁流媒体」x5 2
+  network: ws
+  port: 2053
+  server: v2.emoyes.top
+  servername: v2.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v2.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇩🇪」EMO | 冰灵果 x5 2
+  network: ws
+  port: 8443
+  server: v37.emoyes.top
+  servername: v37.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v37.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇮🇳」EMO | 牛油果 x5 2
+  network: ws
+  port: 2087
+  server: v019.emovpn.xyz
+  servername: v019.emovpn.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v019.emovpn.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇬🇧」EMO | 红富士 x5 2
+  network: ws
+  port: 8443
+  server: v34.emoyes.top
+  servername: v34.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v34.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇫🇷」EMO | 冰糖心 x5 2
+  network: ws
   port: 443
-  server: 141.193.213.94
-  skip-cert-verify: false
-  sni: ustrorxur6vt79grpe.jjjiedian6j4tblb.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 专线去油管广告
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy3.lovebaipiao.net
+  server: v35.emoyes.top
+  servername: v35.emoyes.top
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
   ws-opts:
     headers:
-      Host: www.apple.com
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 请每月更-新一次订阅
-  network: ws
-  port: 2086
-  server: cdn1.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: gz4wah11v4bem6ws.lovebaipiao.com
+      Host: v35.emoyes.top
     path: /
-- client-fingerprint: chrome
-  name: 🇺🇸 美国1-baipiaoyes.top
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇺🇸」EMO | 芝麻蕉 x5 2
+  network: ws
+  port: 8443
+  server: v20.emoyes.top
+  servername: v20.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v20.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇸🇬」EMO | 西贡蕉 x5 2
+  network: ws
+  port: 8443
+  server: v32.emoyes.top
+  servername: v32.emoyes.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
+  ws-opts:
+    headers:
+      Host: v32.emoyes.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 「🇺🇸」EMO | 天元果 x5 2
+  network: ws
   port: 443
-  server: 141.193.213.106
-  skip-cert-verify: false
-  sni: ush9pgjbr1t6mxmbwe.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 美国2-baipiaoyes.top
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.21
-  skip-cert-verify: false
-  sni: ush9pgjbr1t6mxmbwe.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸 美国3-baipiaoyes.top
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.198
-  skip-cert-verify: false
-  sni: ush9pgjbr1t6mxmbwe.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇬🇧 英国Chatgpt
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.17
-  skip-cert-verify: false
-  sni: uk8i7uufxlcbr2hbym.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇬🇧 英国2Chatgpt
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.156
-  skip-cert-verify: false
-  sni: uk8i7uufxlcbr2hbym.jjjiedian6j4tblb.com
-  type: trojan
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 🇺🇸 美国ipv6-5G-ss
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 51751
-  server: 6ushrhml7ttpliy3.lovebaipiao.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇷🇺 俄罗斯1-专线-去广告
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy1.lovebaipiao.net
+  server: v33.emoyes.top
+  servername: v33.emoyes.top
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
+  uuid: b30d00f4-9ec6-4af4-a8b0-9a7200251b25
   ws-opts:
     headers:
-      Host: www.apple.com
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇷🇺 俄罗斯2-专线-去广告
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy2.lovebaipiao.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: ipv6免流-请自行修改host
-  network: ws
-  port: 80
-  server: 6ernu3zmhsv7s95fm.lovebaipiao.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: 6ernu3zmhsv7s95fm.lovebaipiao.net
-    path: /
-- client-fingerprint: chrome
-  name: 🇯🇵 日本1
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.73
-  skip-cert-verify: false
-  sni: jptro0poo5odf36ufx.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵 日本2
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.12
-  skip-cert-verify: false
-  sni: jptro0poo5odf36ufx.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵 日本3
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.121
-  skip-cert-verify: false
-  sni: jptro0poo5odf36ufx.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇨🇦 加拿大1
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.8
-  skip-cert-verify: false
-  sni: catro51avxe7b8r2pw.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇨🇦 加拿大2
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.163
-  skip-cert-verify: false
-  sni: catro51avxe7b8r2pw.jjjiedian6j4tblb.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇨🇦 加拿大3
-  password: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  port: 443
-  server: 141.193.213.232
-  skip-cert-verify: false
-  sni: catro51avxe7b8r2pw.jjjiedian6j4tblb.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡1
-  network: ws
-  port: 2086
-  server: cdn1.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡2
-  network: ws
-  port: 2086
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡3
-  network: ws
-  port: 2086
-  server: cdn3.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港1丨白嫖机场.com
-  network: ws
-  port: 2086
-  server: cdn1.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港2丨白嫖机场.com
-  network: ws
-  port: 2086
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港3丨白嫖机场.com
-  network: ws
-  port: 2086
-  server: cdn3.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: Youtube破解广告1
-  network: ws
-  port: 2086
-  server: cdn1.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: erfpus962ivsb8pwri.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: Youtube破解广告2
-  network: ws
-  port: 2086
-  server: cloudflare.182682.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: erfpus962ivsb8pwri.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: Youtube破解广告3
-  network: ws
-  port: 2086
-  server: cdn3.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: erfpus962ivsb8pwri.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇹🇷 土耳其1丨白嫖机场.com
-  network: ws
-  port: 80
-  server: cdn1.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇹🇷 土耳其2丨白嫖机场.com
-  network: ws
-  port: 80
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇹🇷 土耳其3丨白嫖机场.com
-  network: ws
-  port: 80
-  server: cdn3.bpcdn.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速1
-  network: ws
-  port: 2086
-  server: 170.114.45.51
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速2
-  network: ws
-  port: 2086
-  server: 170.114.45.52
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速3
-  network: ws
-  port: 2086
-  server: 170.114.45.53
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速4
-  network: ws
-  port: 2086
-  server: csgo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速5
-  network: ws
-  port: 2086
-  server: digitalocean.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速6
-  network: ws
-  port: 2086
-  server: cloudflare.182682.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速7
-  network: ws
-  port: 2086
-  server: 141.193.213.167
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速8
-  network: ws
-  port: 2086
-  server: 141.193.213.168
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国光速9
-  network: ws
-  port: 2086
-  server: 141.193.213.169
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 73360cf9-2cd2-441c-9c3a-bcdfd90d360d
-  ws-opts:
-    headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
+      Host: v33.emoyes.top
     path: /
 proxy-groups:
 - name: 🚀 节点选择
@@ -3538,6 +6246,315 @@ proxy-groups:
   - 🇮🇱 以色列IL-T
   - 🇬🇧 英国UK-T
   - 🇳🇬 尼日利亚NI-T
+  - '电报群: https://t.me/emovpn x5'
+  - 「加入会员解锁流媒体」x5
+  - 「🇩🇪」EMO | 冰灵果 x5
+  - 「🇮🇳」EMO | 牛油果 x5
+  - 「🇬🇧」EMO | 红富士 x5
+  - 「🇫🇷」EMO | 冰糖心 x5
+  - 「🇺🇸」EMO | 芝麻蕉 x5
+  - 「🇸🇬」EMO | 西贡蕉 x5
+  - 「🇺🇸」EMO | 天元果 x5
+  - 官方地址:https://www.0be.net
+  - 备用地址:https://wzjmcabhhure.github.io
+  - 建议使用前订阅或每30分钟订阅一次(重要!!!)
+  - 🇭🇰 香港7 华东入口 [家宽] x1.2
+  - 🇭🇰 香港7 三网高级入口 [家宽] x1.2
+  - 🇭🇰 香港7 华中入口 [家宽] x1.2
+  - 🇭🇰 香港6 华东入口 [家宽] x1.2
+  - 🇭🇰 香港6 三网高级入口 [家宽] x1.2
+  - 🇭🇰 香港2 三网高级入口 [ISP] x1.2
+  - 🇭🇰 香港5 三网高级入口 [ISP] x1.2
+  - 🇭🇰 香港4(每日动态) 三网高级入口 [ISP] x1.2
+  - 🇭🇰 香港2 华东入口 [ISP] x1.2
+  - 🇭🇰 香港5 华东入口 [ISP] x1.2
+  - 🇭🇰 香港4(每日动态) 华东入口 [ISP] x1.2
+  - 🇭🇰 香港2 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港7 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港4(每日动态) IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港6 华中入口 [家宽] x1.2
+  - 🇭🇰 香港2 华中入口 [ISP] x1.2
+  - 🇭🇰 香港5 华中入口 [ISP] x1.2
+  - 🇭🇰 香港4(每日动态) 华中入口 [ISP] x1.2
+  - 🇹🇼 台湾4 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾3(动态IP) 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾7(动态IP) 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾8(动态IP) 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾4 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾3(动态IP) 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾8(动态IP) 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾7(动态IP) 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾4 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇹🇼 台湾4 华中入口 [家宽] x1.2
+  - 🇹🇼 台湾3(动态IP) 华中入口 [家宽] x1.2
+  - 🇹🇼 台湾7(动态IP) 华中入口 [家宽] x1.2
+  - 🇹🇼 台湾8(动态IP) 华中入口 [家宽] x1.2
+  - 🇯🇵 日本6 华东入口 [家宽] x1.2
+  - 🇯🇵 日本6 三网高级入口 [家宽] x1.2
+  - 🇯🇵 日本3 三网高级入口 [ISP] x1.2
+  - 🇯🇵 日本1 三网高级入口 [ISP] x1.2
+  - 🇯🇵 日本1 华东入口 [ISP] x1.2
+  - 🇯🇵 日本3 华东入口 [ISP] x1.2
+  - 🇯🇵 日本5 三网高级入口 [原生] x1
+  - 🇯🇵 日本2 三网高级入口 [原生] x1
+  - 🇯🇵 日本2 华东入口 [原生] x1
+  - 🇯🇵 日本5 华东入口 [原生] x1
+  - 🇯🇵 日本2 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本3 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本1 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本6 华中入口 [家宽] x1.2
+  - 🇯🇵 日本3 华中入口 [ISP] x1.2
+  - 🇯🇵 日本1 华中入口 [ISP] x1.2
+  - 🇯🇵 日本2 华中入口 [原生] x1
+  - 🇯🇵 日本5 华中入口 [原生] x1
+  - 🇰🇷 韩国6 华东入口 [家宽] x1.2
+  - 🇰🇷 韩国6 三网高级入口 [家宽] x1.2
+  - 🇰🇷 韩国5 三网高级入口 [ISP] x1.2
+  - 🇰🇷 韩国5 华东入口 [ISP] x1.2
+  - 🇰🇷 韩国6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇰🇷 韩国5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇰🇷 韩国6 华中入口 [家宽] x1.2
+  - 🇰🇷 韩国5 华中入口 [原生] x1
+  - 🇺🇸 美国4 华东入口 [家宽] x1.2
+  - 🇺🇸 美国10 华东入口 [家宽] x1.2
+  - 🇺🇸 美国7(GTT) 华东入口 [家宽] x1.2
+  - 🇺🇸 美国12 华东入口 [家宽] x1.2
+  - 🇺🇸 美国4 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国10 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国7(GTT) 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国12 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国8 三网高级入口 [ISP] x1.2
+  - 🇺🇸 美国8 华东入口 [ISP] x1.2
+  - 🇺🇸 美国4 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国7(GTT) IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国12 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国8 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国4 华中入口 [家宽] x1.2
+  - 🇺🇸 美国10 华中入口 [家宽] x1.2
+  - 🇺🇸 美国7(GTT) 华中入口 [家宽] x1.2
+  - 🇺🇸 美国12 华中入口 [家宽] x1.2
+  - 🇺🇸 美国8 华中入口 [ISP] x1.2
+  - 🇨🇦 加拿大2 三网高级入口 [原生] x1
+  - 🇨🇦 加拿大2 华东入口 [原生] x1
+  - 🇨🇦 加拿大2 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇨🇦 加拿大2 华中入口 [原生] x1
+  - 🇧🇷 巴西1 三网高级入口 [原生] x1
+  - 🇧🇷 巴西1 华东入口 [原生] x1
+  - 🇧🇷 巴西1 华中入口 [原生] x1
+  - 🇪🇸 西班牙2 华东入口 [家宽] x1.2
+  - 🇪🇸 西班牙2 三网高级入口 [家宽] x1.2
+  - 🇪🇸 西班牙2 华中入口 [家宽] x1.2
+  - 🇦🇷 阿根廷1 华东入口 [家宽] x1.2
+  - 🇦🇷 阿根廷1 三网高级入口 [家宽] x1.2
+  - 🇦🇷 阿根廷1 华中入口 [家宽] x1.2
+  - 🇻🇳 越南4 华东入口 [家宽] x1.2
+  - 🇻🇳 越南3 华东入口 [家宽] x1.2
+  - 🇻🇳 越南4 三网高级入口 [家宽] x1.2
+  - 🇻🇳 越南3 三网高级入口 [家宽] x1.2
+  - 🇻🇳 越南4 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇻🇳 越南4 华中入口 [家宽] x1.2
+  - 🇻🇳 越南3 华中入口 [家宽] x1.2
+  - 🇹🇭 泰国4 三网高级入口 [原生] x1
+  - 🇹🇭 泰国4 华东入口 [原生] x1
+  - 🇹🇭 泰国4 华中入口 [原生] x1
+  - 🇲🇾 马来西亚1 华东入口 [家宽] x1.2
+  - 🇲🇾 马来西亚1 三网高级入口 [家宽] x1.2
+  - 🇲🇾 马来西亚3 三网高级入口 [原生] x1
+  - 🇲🇾 马来西亚3 华东入口 [原生] x1
+  - 🇲🇾 马来西亚3 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇲🇾 马来西亚1 华中入口 [家宽] x1.2
+  - 🇲🇾 马来西亚3 华中入口 [原生] x1
+  - 🇸🇬 新加坡6 华东入口 [家宽] x1.2
+  - 🇸🇬 新加坡6 三网高级入口 [家宽] x1.2
+  - 🇸🇬 新加坡3 三网高级入口 [原生] x1
+  - 🇸🇬 新加坡5 三网高级入口 [原生] x1
+  - 🇸🇬 新加坡3 华东入口 [原生] x1
+  - 🇸🇬 新加坡5 华东入口 [原生] x1
+  - 🇸🇬 新加坡3 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇸🇬 新加坡6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇸🇬 新加坡5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇸🇬 新加坡6 华中入口 [家宽] x1.2
+  - 🇸🇬 新加坡3 华中入口 [原生] x1
+  - 🇸🇬 新加坡5 华中入口 [原生] x1
+  - 🇵🇭 菲律宾1 三网高级入口 [ISP] x1.2
+  - 🇵🇭 菲律宾1 华东入口 [ISP] x1.2
+  - 🇵🇭 菲律宾1 华中入口 [ISP] x1.2
+  - 🇮🇩 印度尼西亚 华东入口 [家宽] x1.2
+  - 🇮🇩 印度尼西亚 三网高级入口 [家宽] x1.2
+  - 🇮🇩 印度尼西亚 华中入口 [家宽] x1.2
+  - 🇰🇭 柬埔寨3 三网高级入口 [ISP] x1.2
+  - 🇰🇭 柬埔寨3 华东入口 [ISP] x1.2
+  - 🇰🇭 柬埔寨3 华中入口 [ISP] x1.2
+  - 🇷🇺 俄罗斯1 三网高级入口 [原生] x1
+  - 🇷🇺 俄罗斯1 华东入口 [原生] x1
+  - 🇷🇺 俄罗斯1 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇷🇺 俄罗斯1 华中入口 [原生] x1
+  - 🇳🇵 尼泊尔 华东入口 [家宽] x1.2
+  - 🇳🇵 尼泊尔 三网高级入口 [家宽] x1.2
+  - 🇳🇵 尼泊尔 华中入口 [家宽] x1.2
+  - 🇧🇩 孟加拉 三网高级入口 [原生] x1
+  - 🇧🇩 孟加拉 华东入口 [原生] x1
+  - 🇧🇩 孟加拉 华中入口 [原生] x1
+  - 🇰🇿 哈萨克斯坦 华东入口 [家宽] x1.2
+  - 🇰🇿 哈萨克斯坦 三网高级入口 [家宽] x1.2
+  - 🇰🇿 哈萨克斯坦 华中入口 [家宽] x1.2
+  - 🇵🇰 巴基斯坦 三网高级入口 [原生] x1
+  - 🇵🇰 巴基斯坦 华东入口 [原生] x1
+  - 🇵🇰 巴基斯坦 华中入口 [原生] x1
+  - 🇨🇭 瑞士 三网高级入口 [非原生] x0.8
+  - 🇨🇭 瑞士 华东入口 [非原生] x0.8
+  - 🇨🇭 瑞士 华中入口 [非原生] x0.8
+  - 🇬🇧 英国1 三网高级入口 [ISP] x1.2
+  - 🇬🇧 英国1 华东入口 [ISP] x1.2
+  - 🇬🇧 英国1 华中入口 [ISP] x1.2
+  - 🇩🇪 德国4 三网高级入口 [原生] x1
+  - 🇩🇪 德国3 三网高级入口 [原生] x1
+  - 🇩🇪 德国4 华东入口 [原生] x1
+  - 🇩🇪 德国3 华东入口 [原生] x1
+  - 🇩🇪 德国4 华中入口 [原生] x1
+  - 🇩🇪 德国3 华中入口 [原生] x1
+  - 🇫🇷 法国1 三网高级入口 [原生] x1
+  - 🇫🇷 法国2 三网高级入口 [原生] x1
+  - 🇫🇷 法国1 华东入口 [原生] x1
+  - 🇫🇷 法国2 华东入口 [原生] x1
+  - 🇫🇷 法国1 华中入口 [原生] x1
+  - 🇫🇷 法国2 华中入口 [原生] x1
+  - 🇸🇪 瑞典 华东入口 [家宽] x1.2
+  - 🇸🇪 瑞典 三网高级入口 [家宽] x1.2
+  - 🇸🇪 瑞典 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇸🇪 瑞典 华中入口 [家宽] x1.2
+  - 🇫🇮 芬兰  三网高级入口 [非原生] x0.8
+  - 🇫🇮 芬兰  华东入口 [非原生] x0.8
+  - 🇫🇮 芬兰  华中入口 [非原生] x0.8
+  - 🇨🇿 捷克 三网高级入口 [原生] x1
+  - 🇨🇿 捷克 华东入口 [原生] x1
+  - 🇨🇿 捷克 华中入口 [原生] x1
+  - 🇱🇹 立陶宛 三网高级入口 [原生] x1
+  - 🇱🇹 立陶宛 华东入口 [原生] x1
+  - 🇱🇹 立陶宛 华中入口 [原生] x1
+  - 🇦🇹 奥地利 华东入口 [家宽] x1.2
+  - 🇦🇹 奥地利 三网高级入口 [家宽] x1.2
+  - 🇦🇹 奥地利 华中入口 [家宽] x1.2
+  - 🇺🇦 乌克兰  三网高级入口 [原生] x1
+  - 🇺🇦 乌克兰  华东入口 [原生] x1
+  - 🇺🇦 乌克兰  华中入口 [原生] x1
+  - 🇵🇱 波兰 华东入口 [家宽] x1.2
+  - 🇵🇱 波兰 三网高级入口 [家宽] x1.2
+  - 🇵🇱 波兰 华中入口 [家宽] x1.2
+  - 🇹🇷 土耳其1  三网高级入口 [非原生] x0.8
+  - 🇹🇷 土耳其1  华东入口 [非原生] x0.8
+  - 🇹🇷 土耳其1  华中入口 [非原生] x0.8
+  - 🇦🇪 阿联酋  三网高级入口 [非原生] x0.8
+  - 🇦🇪 阿联酋  华东入口 [非原生] x0.8
+  - 🇦🇪 阿联酋  华中入口 [非原生] x0.8
+  - 🇦🇿 阿塞拜疆1 华东入口 [家宽] x1.2
+  - 🇦🇿 阿塞拜疆1 三网高级入口 [家宽] x1.2
+  - 🇦🇿 阿塞拜疆1 华中入口 [家宽] x1.2
+  - 🇦🇺 澳大利亚1 华东入口 [家宽] x1.2
+  - 🇦🇺 澳大利亚1 三网高级入口 [家宽] x1.2
+  - 🇦🇺 澳大利亚3 三网高级入口 [原生] x1
+  - 🇦🇺 澳大利亚3 华东入口 [原生] x1
+  - 🇦🇺 澳大利亚1 华中入口 [家宽] x1.2
+  - 🇦🇺 澳大利亚3 华中入口 [原生] x1
+  - 🇳🇿 新西兰 华东入口 [家宽] x1.2
+  - 🇳🇿 新西兰 三网高级入口 [家宽] x1.2
+  - 🇳🇿 新西兰 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇳🇿 新西兰 华中入口 [家宽] x1.2
+  - 🇳🇬 尼日利亚4 三网高级入口 [ISP] x1.2
+  - 🇳🇬 尼日利亚4 华东入口 [ISP] x1.2
+  - 伊拉克1 三网高级入口 [原生] x1
+  - 伊拉克1 华东入口 [原生] x1
+  - 🇳🇬 尼日利亚4 华中入口 [ISP] x1.2
+  - 伊拉克1 华中入口 [原生] x1
+  - 🇪🇬 埃及 华东入口 [家宽] x1.2
+  - 🇪🇬 埃及 三网高级入口 [家宽] x1.2
+  - 🇪🇬 埃及 华中入口 [家宽] x1.2
+  - 🇿🇦 南非 三网高级入口 [原生] x1
+  - 🇿🇦 南非 华东入口 [原生] x1
+  - 🇿🇦 南非 华中入口 [原生] x1
+  - 多哥1 华东入口 [家宽] x1.2
+  - 多哥1 三网高级入口 [家宽] x1.2
+  - 多哥1 华中入口 [家宽] x1.2
+  - 🇵🇪 秘鲁1 华东入口 [家宽] x1.2
+  - 🇵🇪 秘鲁1 三网高级入口 [家宽] x1.2
+  - 🇵🇪 秘鲁1 华中入口 [家宽] x1.2
+  - 斐济(warp) 三网高级入口 [非原生] x0.8
+  - 斐济(warp) 华东入口 [非原生] x0.8
+  - 斐济(warp) 华中入口 [非原生] x0.8
+  - 🇭🇰 [HK]HongKong01-GPT优化
+  - 🇭🇰 [HK]HongKong02-GPT优化
+  - 🇭🇰 [HK]HongKong03-GPT优化
+  - 🇭🇰 [HK]HongKong04-GPT优化
+  - 🇭🇰 [HK]HongKong05-GPT优化
+  - 🇭🇰 [HK]HongKong06-GPT优化
+  - 🇭🇰 [HK]HongKong07-GPT优化
+  - 🇭🇰 [HK]HongKong08-GPT优化
+  - 🇭🇰 [HK]HongKong09-GPT优化
+  - 🇭🇰 [HK]HongKong10-GPT优化
+  - 🇭🇰 [CN]HK专线01-【5x】
+  - 🇭🇰 [CN]HK专线02-【5x】
+  - 🇸🇬 [CN]SG专线01-【5x】
+  - 🇹🇼 [CN]TW专线01-【5x】
+  - 🇯🇵 [JP]Tokyo01
+  - 🇯🇵 [JP]Tokyo02
+  - 🇯🇵 [JP]Tokyo03
+  - 🇯🇵 [JP]Tokyo04
+  - 🇯🇵 [JP]Tokyo06
+  - 🇯🇵 [JP]Tokyo07
+  - 🇯🇵 [JP]Tokyo08
+  - 🇯🇵 [JP]Tokyo09
+  - 🇯🇵 [JP]Tokyo10
+  - 🇯🇵 [JP]Tokyo11
+  - 🇸🇬 [SG]Singapore01
+  - 🇸🇬 [SG]Singapore02
+  - 🇸🇬 [SG]Singapore03
+  - 🇸🇬 [SG]Singapore04
+  - 🇸🇬 [SG]Singapore05
+  - 🇸🇬 [SG]Singapore06
+  - 🇸🇬 [SG]Singapore07
+  - 🇸🇬 [SG]Singapore08
+  - 🇸🇬 [SG]Singapore09
+  - 🇸🇬 [SG]Singapore10
+  - 🇺🇸 [US]美国Los Angeles01-GPT优化
+  - 🇺🇸 [US]美国Los Angeles02-GPT优化
+  - 🇺🇸 [US]美国Los Angeles03-GPT优化
+  - 🇺🇸 [US]美国Los Angeles04-GPT优化
+  - 🇺🇸 [US]美国Santa Clara05-GPT优化
+  - 🇺🇸 [US]美国Santa Clara06-GPT优化
+  - 🇺🇸 [US]美国San Jose07-GPT优化
+  - 🇺🇸 [US]美国San Jose08-GPT优化
+  - 🇹🇼 [TW]TaiPei01-GPT优化
+  - 🇹🇼 [TW]TaiPei02-GPT优化
+  - 🇹🇼 [TW]TaiPei03-GPT优化
+  - 🇹🇼 [TW]TaiPei04-GPT优化
+  - 🇹🇼 [TW]TaiPei05-GPT优化
+  - 🇹🇼 [TW]TaiPei06-GPT优化
+  - 🇫🇷 [FR]法国-Paris01
+  - 🇫🇷 [FR]法国-Paris02
+  - 🇬🇧 [UK]英国Coventry01-BBC优化
+  - 🇬🇧 [UK]英国Coventry02-BBC优化
+  - 🇩🇪 [DE]德国-Frankfurt01
+  - 🇩🇪 [DE]德国-Frankfurt02
+  - 🇨🇦 [CA]加拿大-Toronto
+  - 🇳🇱 [NL]荷兰-Amsterdam
+  - 🇷🇺 [RU]俄罗斯-Moscow
+  - 🇹🇷 [TR]土耳其-Istanbul
+  - 🇮🇳 [IN]印度-bangalore
+  - 🇰🇷 [KR]韩国-Seoul
+  - 🇻🇳 [VN]越南-HoChiMinh
+  - 🇦🇺 [AU]澳大利亚-Sydney
+  - 🇳🇬 [NG]尼日利亚-Lagos
+  - 🇦🇷 [AR]阿根廷-BuenosAires
+  - 🇲🇰 [MK]马其顿-Macedonia
+  - 🇦🇪 [AE]阿联酋-ArabEmirates
+  - '[境外用户专用]GPT01'
+  - '[ss]距离下次重置剩余：21 天'
+  - '[ss]过滤掉8条线路'
+  - 🇰🇷 [ss]KR-ORACLE-1-主
   - 🇭🇰 香港-IEPL
   - 🇹🇼 台湾-IEPL
   - 🇸🇬 新加坡-IEPL
@@ -3565,20 +6582,14 @@ proxy-groups:
   - 🇸🇬 新加坡02aws
   - 🇸🇬 新加坡03aws
   - 🇸🇬 新加坡04aws
-  - 🇸🇬 新加坡05aws
   - 🇸🇬 新加坡06aws
-  - 🇸🇬 新加坡07aws
   - 🇸🇬 新加坡08aws
   - 🇸🇬 新加坡09aws
-  - 🇸🇬 新加坡10aws
-  - 🇸🇬 新加坡11aws
   - 🇸🇬 新加坡12aws
   - 🇸🇬 新加坡13aws
   - 🇸🇬 新加坡14aws
   - 🇸🇬 新加坡15aws
   - 🇸🇬 新加坡17aws
-  - 🇸🇬 新加坡19aws
-  - 🇸🇬 新加坡21aws
   - 🇸🇬 新加坡26aws
   - 🇸🇬 新加坡11
   - 🇸🇬 新加坡12
@@ -3597,6 +6608,45 @@ proxy-groups:
   - 🇺🇸 美国03
   - 电报群https://t.me/feiniaoyunjichang
   - 防失联页https://github.com/feiniaoyun
+  - 过滤掉10条线路
+  - 专线去油管广告
+  - 请每月更-新一次订阅
+  - 🇺🇸 美国1-baipiaoyes.top
+  - 🇺🇸 美国2-baipiaoyes.top
+  - 🇺🇸 美国ipv6-5G-ss
+  - 🇷🇺 俄罗斯1-专线-去广告
+  - 🇷🇺 俄罗斯2-专线-去广告
+  - ipv6免流-请自行修改host
+  - 🇯🇵 日本1
+  - 🇯🇵 日本2
+  - 🇯🇵 日本3
+  - 🇨🇦 加拿大1
+  - 🇨🇦 加拿大2
+  - 🇨🇦 加拿大3
+  - 🇸🇬 新加坡1
+  - 🇸🇬 新加坡2
+  - 🇸🇬 新加坡3
+  - 🇭🇰 香港1丨白嫖机场.com
+  - 🇭🇰 香港2丨白嫖机场.com
+  - 🇭🇰 香港3丨白嫖机场.com
+  - Youtube破解广告1
+  - Youtube破解广告2
+  - Youtube破解广告3
+  - 🇹🇷 土耳其1丨白嫖机场.com
+  - 🇹🇷 土耳其2丨白嫖机场.com
+  - 🇹🇷 土耳其3丨白嫖机场.com
+  - 🇬🇧 英国1丨ChatGpt
+  - 🇬🇧 英国2丨ChatGpt
+  - 🇬🇧 英国3丨ChatGpt
+  - 🇺🇸 美国光速1
+  - 🇺🇸 美国光速2
+  - 🇺🇸 美国光速3
+  - 🇺🇸 美国光速4
+  - 🇺🇸 美国光速5
+  - 🇺🇸 美国光速6
+  - 🇺🇸 美国光速7
+  - 🇺🇸 美国光速8
+  - 🇺🇸 美国光速9
   - 🇸🇬 最新网址：Nicepro.cc
   - 🇭🇰 HK01
   - 🇭🇰 HK02
@@ -3788,50 +6838,15 @@ proxy-groups:
   - 🇻🇳 越南
   - 🇳🇴 挪威
   - 🇷🇺 俄罗斯
-  - '[ss]距离下次重置剩余：25 天'
-  - '[ss]过滤掉8条线路'
-  - 🇰🇷 [ss]KR-ORACLE-IEPL
-  - 🇰🇷 [ss]KR-ORACLE-1-主
-  - 过滤掉10条线路
-  - 🇺🇸 美国Fast
-  - 专线去油管广告
-  - 请每月更-新一次订阅
-  - 🇺🇸 美国1-baipiaoyes.top
-  - 🇺🇸 美国2-baipiaoyes.top
-  - 🇺🇸 美国3-baipiaoyes.top
-  - 🇬🇧 英国Chatgpt
-  - 🇬🇧 英国2Chatgpt
-  - 🇺🇸 美国ipv6-5G-ss
-  - 🇷🇺 俄罗斯1-专线-去广告
-  - 🇷🇺 俄罗斯2-专线-去广告
-  - ipv6免流-请自行修改host
-  - 🇯🇵 日本1
-  - 🇯🇵 日本2
-  - 🇯🇵 日本3
-  - 🇨🇦 加拿大1
-  - 🇨🇦 加拿大2
-  - 🇨🇦 加拿大3
-  - 🇸🇬 新加坡1
-  - 🇸🇬 新加坡2
-  - 🇸🇬 新加坡3
-  - 🇭🇰 香港1丨白嫖机场.com
-  - 🇭🇰 香港2丨白嫖机场.com
-  - 🇭🇰 香港3丨白嫖机场.com
-  - Youtube破解广告1
-  - Youtube破解广告2
-  - Youtube破解广告3
-  - 🇹🇷 土耳其1丨白嫖机场.com
-  - 🇹🇷 土耳其2丨白嫖机场.com
-  - 🇹🇷 土耳其3丨白嫖机场.com
-  - 🇺🇸 美国光速1
-  - 🇺🇸 美国光速2
-  - 🇺🇸 美国光速3
-  - 🇺🇸 美国光速4
-  - 🇺🇸 美国光速5
-  - 🇺🇸 美国光速6
-  - 🇺🇸 美国光速7
-  - 🇺🇸 美国光速8
-  - 🇺🇸 美国光速9
+  - '电报群: https://t.me/emovpn x5 2'
+  - 「加入会员解锁流媒体」x5 2
+  - 「🇩🇪」EMO | 冰灵果 x5 2
+  - 「🇮🇳」EMO | 牛油果 x5 2
+  - 「🇬🇧」EMO | 红富士 x5 2
+  - 「🇫🇷」EMO | 冰糖心 x5 2
+  - 「🇺🇸」EMO | 芝麻蕉 x5 2
+  - 「🇸🇬」EMO | 西贡蕉 x5 2
+  - 「🇺🇸」EMO | 天元果 x5 2
   type: select
 - name: 📲 电报消息
   proxies:
@@ -3992,6 +7007,8 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🚀 节点选择
+  - 「加入会员解锁流媒体」x5
+  - 「加入会员解锁流媒体」x5 2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4035,8 +7052,43 @@ proxy-groups:
   - 🇭🇰 香港WAP-优化
   - 🇭🇰 香港WAP-优化2
   - 🇭🇰 香港wap-T
+  - 🇭🇰 香港7 华东入口 [家宽] x1.2
+  - 🇭🇰 香港7 三网高级入口 [家宽] x1.2
+  - 🇭🇰 香港7 华中入口 [家宽] x1.2
+  - 🇭🇰 香港6 华东入口 [家宽] x1.2
+  - 🇭🇰 香港6 三网高级入口 [家宽] x1.2
+  - 🇭🇰 香港2 三网高级入口 [ISP] x1.2
+  - 🇭🇰 香港5 三网高级入口 [ISP] x1.2
+  - 🇭🇰 香港4(每日动态) 三网高级入口 [ISP] x1.2
+  - 🇭🇰 香港2 华东入口 [ISP] x1.2
+  - 🇭🇰 香港5 华东入口 [ISP] x1.2
+  - 🇭🇰 香港4(每日动态) 华东入口 [ISP] x1.2
+  - 🇭🇰 香港2 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港7 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港4(每日动态) IPLC专线 [低延迟] [金融级安全] x8
+  - 🇭🇰 香港6 华中入口 [家宽] x1.2
+  - 🇭🇰 香港2 华中入口 [ISP] x1.2
+  - 🇭🇰 香港5 华中入口 [ISP] x1.2
+  - 🇭🇰 香港4(每日动态) 华中入口 [ISP] x1.2
+  - 🇭🇰 [HK]HongKong01-GPT优化
+  - 🇭🇰 [HK]HongKong02-GPT优化
+  - 🇭🇰 [HK]HongKong03-GPT优化
+  - 🇭🇰 [HK]HongKong04-GPT优化
+  - 🇭🇰 [HK]HongKong05-GPT优化
+  - 🇭🇰 [HK]HongKong06-GPT优化
+  - 🇭🇰 [HK]HongKong07-GPT优化
+  - 🇭🇰 [HK]HongKong08-GPT优化
+  - 🇭🇰 [HK]HongKong09-GPT优化
+  - 🇭🇰 [HK]HongKong10-GPT优化
+  - 🇭🇰 [CN]HK专线01-【5x】
+  - 🇭🇰 [CN]HK专线02-【5x】
   - 🇭🇰 香港-IEPL
   - 🇭🇰 香港03aws
+  - 🇭🇰 香港1丨白嫖机场.com
+  - 🇭🇰 香港2丨白嫖机场.com
+  - 🇭🇰 香港3丨白嫖机场.com
   - 🇭🇰 HK01
   - 🇭🇰 HK02
   - 🇭🇰 HK03
@@ -4080,9 +7132,6 @@ proxy-groups:
   - 🇭🇰 香港08
   - 🇭🇰 香港09
   - 🇭🇰 香港10
-  - 🇭🇰 香港1丨白嫖机场.com
-  - 🇭🇰 香港2丨白嫖机场.com
-  - 🇭🇰 香港3丨白嫖机场.com
   type: select
 - name: 🇯🇵 日本节点
   proxies:
@@ -4094,6 +7143,36 @@ proxy-groups:
   - 🇯🇵 日本-优化2
   - 🇯🇵 日本-优化3
   - 🇯🇵 日本JP-T
+  - 🇯🇵 日本6 华东入口 [家宽] x1.2
+  - 🇯🇵 日本6 三网高级入口 [家宽] x1.2
+  - 🇯🇵 日本3 三网高级入口 [ISP] x1.2
+  - 🇯🇵 日本1 三网高级入口 [ISP] x1.2
+  - 🇯🇵 日本1 华东入口 [ISP] x1.2
+  - 🇯🇵 日本3 华东入口 [ISP] x1.2
+  - 🇯🇵 日本5 三网高级入口 [原生] x1
+  - 🇯🇵 日本2 三网高级入口 [原生] x1
+  - 🇯🇵 日本2 华东入口 [原生] x1
+  - 🇯🇵 日本5 华东入口 [原生] x1
+  - 🇯🇵 日本2 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本3 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本1 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇯🇵 日本6 华中入口 [家宽] x1.2
+  - 🇯🇵 日本3 华中入口 [ISP] x1.2
+  - 🇯🇵 日本1 华中入口 [ISP] x1.2
+  - 🇯🇵 日本2 华中入口 [原生] x1
+  - 🇯🇵 日本5 华中入口 [原生] x1
+  - 🇯🇵 [JP]Tokyo01
+  - 🇯🇵 [JP]Tokyo02
+  - 🇯🇵 [JP]Tokyo03
+  - 🇯🇵 [JP]Tokyo04
+  - 🇯🇵 [JP]Tokyo06
+  - 🇯🇵 [JP]Tokyo07
+  - 🇯🇵 [JP]Tokyo08
+  - 🇯🇵 [JP]Tokyo09
+  - 🇯🇵 [JP]Tokyo10
+  - 🇯🇵 [JP]Tokyo11
   - 🇯🇵 日本-IEPL-GPT
   - 🇯🇵 日本-IEPL2-GPT
   - 🇯🇵 日本01
@@ -4104,6 +7183,9 @@ proxy-groups:
   - 🇯🇵 日本02aws
   - 🇯🇵 日本03aws
   - 🇯🇵 日本05aws
+  - 🇯🇵 日本1
+  - 🇯🇵 日本2
+  - 🇯🇵 日本3
   - 🇯🇵 JP01
   - 🇯🇵 JP02
   - 🇯🇵 JP03
@@ -4131,9 +7213,6 @@ proxy-groups:
   - 🇯🇵 日本04
   - 🇯🇵 日本05
   - 🇯🇵 日本06
-  - 🇯🇵 日本1
-  - 🇯🇵 日本2
-  - 🇯🇵 日本3
   type: select
 - name: 🇺🇲 美国节点
   proxies:
@@ -4145,10 +7224,49 @@ proxy-groups:
   - 🇺🇸 美国LA-优化-GPT
   - 🇺🇸 美国LA-优化2-GPT
   - 🇺🇸 美国LA-优化3-GPT
+  - 🇺🇸 美国4 华东入口 [家宽] x1.2
+  - 🇺🇸 美国10 华东入口 [家宽] x1.2
+  - 🇺🇸 美国7(GTT) 华东入口 [家宽] x1.2
+  - 🇺🇸 美国12 华东入口 [家宽] x1.2
+  - 🇺🇸 美国4 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国10 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国7(GTT) 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国12 三网高级入口 [家宽] x1.2
+  - 🇺🇸 美国8 三网高级入口 [ISP] x1.2
+  - 🇺🇸 美国8 华东入口 [ISP] x1.2
+  - 🇺🇸 美国4 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国7(GTT) IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国12 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国8 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇺🇸 美国4 华中入口 [家宽] x1.2
+  - 🇺🇸 美国10 华中入口 [家宽] x1.2
+  - 🇺🇸 美国7(GTT) 华中入口 [家宽] x1.2
+  - 🇺🇸 美国12 华中入口 [家宽] x1.2
+  - 🇺🇸 美国8 华中入口 [ISP] x1.2
+  - 🇺🇸 [US]美国Los Angeles01-GPT优化
+  - 🇺🇸 [US]美国Los Angeles02-GPT优化
+  - 🇺🇸 [US]美国Los Angeles03-GPT优化
+  - 🇺🇸 [US]美国Los Angeles04-GPT优化
+  - 🇺🇸 [US]美国Santa Clara05-GPT优化
+  - 🇺🇸 [US]美国Santa Clara06-GPT优化
+  - 🇺🇸 [US]美国San Jose07-GPT优化
+  - 🇺🇸 [US]美国San Jose08-GPT优化
   - 🇺🇸 美国-IEPL-GPT
   - 🇺🇸 美国-IEPL2-GPT
   - 🇺🇸 hy2美国02
   - 🇺🇸 美国03
+  - 🇺🇸 美国1-baipiaoyes.top
+  - 🇺🇸 美国2-baipiaoyes.top
+  - 🇺🇸 美国ipv6-5G-ss
+  - 🇺🇸 美国光速1
+  - 🇺🇸 美国光速2
+  - 🇺🇸 美国光速3
+  - 🇺🇸 美国光速4
+  - 🇺🇸 美国光速5
+  - 🇺🇸 美国光速6
+  - 🇺🇸 美国光速7
+  - 🇺🇸 美国光速8
+  - 🇺🇸 美国光速9
   - 🇺🇸 US01
   - 🇺🇸 US02
   - 🇺🇸 US03
@@ -4179,20 +7297,6 @@ proxy-groups:
   - 🇺🇸 美国08
   - 🇺🇸 美国09
   - 🇺🇸 美国10
-  - 🇺🇸 美国Fast
-  - 🇺🇸 美国1-baipiaoyes.top
-  - 🇺🇸 美国2-baipiaoyes.top
-  - 🇺🇸 美国3-baipiaoyes.top
-  - 🇺🇸 美国ipv6-5G-ss
-  - 🇺🇸 美国光速1
-  - 🇺🇸 美国光速2
-  - 🇺🇸 美国光速3
-  - 🇺🇸 美国光速4
-  - 🇺🇸 美国光速5
-  - 🇺🇸 美国光速6
-  - 🇺🇸 美国光速7
-  - 🇺🇸 美国光速8
-  - 🇺🇸 美国光速9
   type: select
 - name: 🇸🇬 狮城节点
   proxies:
@@ -4208,31 +7312,51 @@ proxy-groups:
   - 🇸🇬 新加坡-优化
   - 🇸🇬 新加坡-优化2
   - 🇸🇬 新加坡-优化3
+  - 🇸🇬 新加坡6 华东入口 [家宽] x1.2
+  - 🇸🇬 新加坡6 三网高级入口 [家宽] x1.2
+  - 🇸🇬 新加坡3 三网高级入口 [原生] x1
+  - 🇸🇬 新加坡5 三网高级入口 [原生] x1
+  - 🇸🇬 新加坡3 华东入口 [原生] x1
+  - 🇸🇬 新加坡5 华东入口 [原生] x1
+  - 🇸🇬 新加坡3 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇸🇬 新加坡6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇸🇬 新加坡5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇸🇬 新加坡6 华中入口 [家宽] x1.2
+  - 🇸🇬 新加坡3 华中入口 [原生] x1
+  - 🇸🇬 新加坡5 华中入口 [原生] x1
+  - 🇸🇬 [CN]SG专线01-【5x】
+  - 🇸🇬 [SG]Singapore01
+  - 🇸🇬 [SG]Singapore02
+  - 🇸🇬 [SG]Singapore03
+  - 🇸🇬 [SG]Singapore04
+  - 🇸🇬 [SG]Singapore05
+  - 🇸🇬 [SG]Singapore06
+  - 🇸🇬 [SG]Singapore07
+  - 🇸🇬 [SG]Singapore08
+  - 🇸🇬 [SG]Singapore09
+  - 🇸🇬 [SG]Singapore10
   - 🇸🇬 新加坡-IEPL
   - 🇸🇬 新加坡01aws
   - 🇸🇬 新加坡02
   - 🇸🇬 新加坡02aws
   - 🇸🇬 新加坡03aws
   - 🇸🇬 新加坡04aws
-  - 🇸🇬 新加坡05aws
   - 🇸🇬 新加坡06aws
-  - 🇸🇬 新加坡07aws
   - 🇸🇬 新加坡08aws
   - 🇸🇬 新加坡09aws
-  - 🇸🇬 新加坡10aws
-  - 🇸🇬 新加坡11aws
   - 🇸🇬 新加坡12aws
   - 🇸🇬 新加坡13aws
   - 🇸🇬 新加坡14aws
   - 🇸🇬 新加坡15aws
   - 🇸🇬 新加坡17aws
-  - 🇸🇬 新加坡19aws
-  - 🇸🇬 新加坡21aws
   - 🇸🇬 新加坡26aws
   - 🇸🇬 新加坡11
   - 🇸🇬 新加坡12
   - 🇸🇬 trojan新加坡01
   - 🇸🇬 trojan新加坡02
+  - 🇸🇬 新加坡1
+  - 🇸🇬 新加坡2
+  - 🇸🇬 新加坡3
   - 🇸🇬 SG01
   - 🇸🇬 SG02
   - 🇸🇬 SG03
@@ -4247,9 +7371,6 @@ proxy-groups:
   - 🇸🇬 苏打-新加坡02 x1
   - 🇸🇬 新加坡01
   - 🇸🇬 新加坡02 2
-  - 🇸🇬 新加坡1
-  - 🇸🇬 新加坡2
-  - 🇸🇬 新加坡3
   type: select
 - name: 🇨🇳 台湾节点
   proxies:
@@ -4257,6 +7378,26 @@ proxy-groups:
   - 🇹🇼 台湾-优化
   - 🇹🇼 台湾-优化2-GPT
   - 🇹🇼 台湾-优化3
+  - 🇹🇼 台湾4 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾3(动态IP) 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾7(动态IP) 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾8(动态IP) 华东入口 [家宽] x1.2
+  - 🇹🇼 台湾4 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾3(动态IP) 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾8(动态IP) 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾7(动态IP) 三网高级入口 [家宽] x1.2
+  - 🇹🇼 台湾4 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇹🇼 台湾4 华中入口 [家宽] x1.2
+  - 🇹🇼 台湾3(动态IP) 华中入口 [家宽] x1.2
+  - 🇹🇼 台湾7(动态IP) 华中入口 [家宽] x1.2
+  - 🇹🇼 台湾8(动态IP) 华中入口 [家宽] x1.2
+  - 🇹🇼 [CN]TW专线01-【5x】
+  - 🇹🇼 [TW]TaiPei01-GPT优化
+  - 🇹🇼 [TW]TaiPei02-GPT优化
+  - 🇹🇼 [TW]TaiPei03-GPT优化
+  - 🇹🇼 [TW]TaiPei04-GPT优化
+  - 🇹🇼 [TW]TaiPei05-GPT优化
+  - 🇹🇼 [TW]TaiPei06-GPT优化
   - 🇹🇼 台湾-IEPL
   - 🇹🇼 vless台湾01
   - 🇹🇼 vless台湾02
@@ -4283,6 +7424,16 @@ proxy-groups:
   type: select
 - name: 🇰🇷 韩国节点
   proxies:
+  - 🇰🇷 韩国6 华东入口 [家宽] x1.2
+  - 🇰🇷 韩国6 三网高级入口 [家宽] x1.2
+  - 🇰🇷 韩国5 三网高级入口 [ISP] x1.2
+  - 🇰🇷 韩国5 华东入口 [ISP] x1.2
+  - 🇰🇷 韩国6 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇰🇷 韩国5 IPLC专线 [低延迟] [金融级安全] x8
+  - 🇰🇷 韩国6 华中入口 [家宽] x1.2
+  - 🇰🇷 韩国5 华中入口 [原生] x1
+  - 🇰🇷 [KR]韩国-Seoul
+  - 🇰🇷 [ss]KR-ORACLE-1-主
   - 🇰🇷 KR01
   - 🇰🇷 KR02
   - 🇰🇷 苏打-韩国01 x1
@@ -4290,12 +7441,11 @@ proxy-groups:
   - 🇰🇷 韩国02
   - 🇰🇷 韩国03
   - 🇰🇷 韩国04
-  - 🇰🇷 [ss]KR-ORACLE-IEPL
-  - 🇰🇷 [ss]KR-ORACLE-1-主
   type: select
 - name: 🎥 奈飞节点
   proxies:
-  - DIRECT
+  - 「加入会员解锁流媒体」x5
+  - 「加入会员解锁流媒体」x5 2
   type: select
 rules:
 - DOMAIN-SUFFIX,longsiye.nyyo.cn,GLOBAL
