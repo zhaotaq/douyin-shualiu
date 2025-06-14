@@ -27,8 +27,7 @@ class DouyinBatchSubmitterV2:
     """抖音刷量批量提交器 - 只负责刷流，代理切换由外部(main.py)控制"""
     def __init__(self, base_url: str = "https://longsiye.nyyo.cn", proxy_port: int = 9950):
         self.base_url = base_url
-        self.session = requests.Session()
-        self.setup_session(proxy_port)
+        self.proxy_port = proxy_port  # 保存代理端口
         self.setup_logging()
         
         # API端点
@@ -58,13 +57,15 @@ class DouyinBatchSubmitterV2:
             'start_time': None
         }
     
-    def setup_session(self, proxy_port):
-        # 设置代理，所有请求都走本地clash/mihomo代理
-        self.session.proxies = {
-            'http': f'http://127.0.0.1:{proxy_port}',
-            'https': f'http://127.0.0.1:{proxy_port}',
+    def _create_new_session(self):
+        """创建一个新的、独立的requests Session对象"""
+        session = requests.Session()
+        # 设置代理
+        session.proxies = {
+            'http': f'http://127.0.0.1:{self.proxy_port}',
+            'https': f'http://127.0.0.1:{self.proxy_port}',
         }
-        # 参考goodcode补全headers
+        # 更新headers
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'application/json, text/javascript, */*; q=0.01',
@@ -74,22 +75,15 @@ class DouyinBatchSubmitterV2:
             'X-Requested-With': 'XMLHttpRequest',
             'Referer': f'{self.base_url}/?cid=58&tid=3210',
             'Origin': self.base_url,
-            'Connection': 'keep-alive',
+            'Connection': 'close',  # 明确要求关闭连接
             'Sec-Fetch-Dest': 'empty',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Site': 'same-origin'
         }
-        self.session.headers.update(headers)
-        # 禁用SSL验证，防止代理证书问题
-        self.session.verify = False
-        # 配置SSL适配器和重试
-        adapter = requests.adapters.HTTPAdapter(
-            max_retries=3,
-            pool_connections=10,
-            pool_maxsize=10
-        )
-        self.session.mount('https://', adapter)
-        self.session.mount('http://', adapter)
+        session.headers.update(headers)
+        # 禁用SSL验证
+        session.verify = False
+        return session
 
     def setup_logging(self):
         """设置日志记录"""
@@ -126,6 +120,8 @@ class DouyinBatchSubmitterV2:
     
     def submit_single_url(self, douyin_url: str, max_retries: int = 3) -> Tuple[bool, str, Dict]:
         """提交单个抖音链接 - 增强版本，包含重试机制"""
+        # 注意：这里的重试逻辑意义不大，因为外部main.py会切换节点重试。
+        # 但保留它以防直接调用此方法。
         for attempt in range(max_retries):
             try:
                 # 验证链接格式
@@ -152,14 +148,16 @@ class DouyinBatchSubmitterV2:
                 else:
                     self.logger.info(f"🔄 重试第 {attempt} 次: {douyin_url}")
                 
-                # 提交订单 - 增加更多错误处理
-                response = self.session.post(
-                    self.endpoints['pay'], 
-                    data=submit_data, 
-                    timeout=15,
-                    allow_redirects=True
-                )
-                response.raise_for_status()
+                # 使用 with 语句创建临时 session，确保每次都用新连接
+                with self._create_new_session() as session:
+                    # 提交订单
+                    response = session.post(
+                        self.endpoints['pay'], 
+                        data=submit_data, 
+                        timeout=15,
+                        allow_redirects=True
+                    )
+                    response.raise_for_status()
                 
                 result = response.json()
                 
@@ -240,6 +238,7 @@ class DouyinBatchSubmitterV2:
         for i, url in enumerate(urls, 1):
             self.logger.info(f"📤 提交进度: {i}/{len(urls)} - {url}")
             
+            # 每次提交都使用新的会话
             success, message, order_info = self.submit_single_url(url)
             
             result = {
@@ -311,7 +310,7 @@ class DouyinBatchSubmitterV2:
         self.logger.info("🔧 测试API连接...")
         
         try:
-            resp = self.session.get(self.base_url, timeout=5)
+            resp = self._create_new_session().get(self.base_url, timeout=5)
             return resp.status_code == 200
         except Exception:
             return False
