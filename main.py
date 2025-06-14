@@ -147,6 +147,11 @@ def batch_submit(mihomo_path, config_path, proxy_port, api_port, group_name, all
                     print(f'❌ 节点切换失败 ({node}): {e}，尝试下一个节点')
                     continue
 
+                # 新增：测试节点连通性
+                if not test_node_connectivity(proxy_port):
+                    print(f"❌ 节点 {node} 连通性不佳，跳过。")
+                    continue
+
                 # 提交链接
                 submitter = DouyinBatchSubmitterV2(base_url="https://longsiye.nyyo.cn", proxy_port=proxy_port)
                 
@@ -312,6 +317,30 @@ def switch_random_node_main_group(api_port, group_name, all_nodes):
     if now != node:
         raise RuntimeError(f'切换节点失败: 期望{node}, 实际{now}')
     return node
+
+def test_node_connectivity(proxy_port: int, timeout: int = 5) -> bool:
+    """测试当前代理节点的连通性"""
+    proxies = {
+        'http': f'http://127.0.0.1:{proxy_port}',
+        'https': f'http://127.0.0.1:{proxy_port}',
+    }
+    test_url = 'https://longsiye.nyyo.cn'  # 使用业务相关的稳定URL
+    try:
+        with requests.Session() as s:
+            s.proxies = proxies
+            s.verify = False
+            s.headers.update({'Connection': 'close'})
+            # 使用 HEAD 请求更快，因为我们只关心连通性
+            resp = s.head(test_url, timeout=timeout)
+            if 200 <= resp.status_code < 400:
+                print(f"✅ 节点连通性测试成功 (状态码: {resp.status_code})")
+                return True
+            else:
+                print(f"❌ 节点连通性测试失败 (状态码: {resp.status_code})")
+                return False
+    except requests.exceptions.RequestException as e:
+        print(f"❌ 节点连通性测试异常: {e}")
+        return False
 
 def is_node_available(proxy_port):
     proxies = {
