@@ -122,6 +122,9 @@ def batch_submit(mihomo_path, config_path, proxy_port, api_port, group_name, all
 
         results = []
         used_nodes_in_batch = set()
+        
+        # 用于标记当天是否已经写入过日期
+        date_written_for_failure = False
 
         for i, url in enumerate(urls, 1):
             print(f'\\n--- 处理进度: {i}/{len(urls)} --- URL: {url} ---')
@@ -187,11 +190,16 @@ def batch_submit(mihomo_path, config_path, proxy_port, api_port, group_name, all
                 message = final_message
                 # 记录到失败文件
                 failed_urls_filename = "douyin_fallurls.txt"
-                current_date = datetime.now().strftime("#%Y-%m-%d")
-                failed_line = f"{url}{current_date}\\n"
                 try:
                     with open(failed_urls_filename, 'a', encoding='utf-8') as f:
-                        f.write(failed_line)
+                        # 如果当天还没写过日期，就先写入日期
+                        if not date_written_for_failure:
+                            current_date_header = f"\n#{datetime.now().strftime('%Y-%m-%d')}\n"
+                            f.write(current_date_header)
+                            date_written_for_failure = True # 标记已写入
+                        
+                        # 直接写入URL
+                        f.write(f"{url}\n")
                     print(f"📝 失败链接已记录到 {failed_urls_filename}")
                 except Exception as write_e:
                     print(f"❌ 记录失败链接到 {failed_urls_filename} 失败: {write_e}")
